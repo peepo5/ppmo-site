@@ -1,0 +1,326 @@
+:root {
+	--main-background: #14131a;
+	--secondary-background: #333333;
+	--third-background: #101013;
+	--title-color: #e9e9e9;
+	--text-color: #dbdbdb;
+	--text-bright-color: white;
+	--red-color: #d6001c;
+	--green-color: #334e33;
+	--side-nav-link: #9c9c9c;
+	--side-nav-active-border: #221b1b;
+	--invert-full: 100%;
+	--invert-half: 55%;
+	--invert-half-hover: 80%;
+}
+
+.light-theme {
+	--main-background: #dbdbdb;
+	--secondary-background: #b8b8b8;
+	--third-background: #e7e7e7;
+	--title-color: #111111;
+	--text-color: #080808;
+	--text-bright-color: #000000;
+	--side-nav-active-border: #756a6a;
+	--invert-full: 0%;
+	--invert-half: 25%;
+	--invert-half-hover: 0%;
+}
+
+.light-grid-theme {
+	--main-background: #dbdbdb;
+	--secondary-background: #b8b8b8;
+	--third-background: #e7e7e7;
+	--title-color: #111111;
+	--text-color: #080808;
+	--text-bright-color: #000000;
+	--red-color: #8d1424;
+	--green-color: #334e33;
+	--side-nav-link: #3b3b3b;
+	--side-nav-active-border: #756a6a;
+	--invert-full: 0%;
+	--invert-half: 25%;
+	--invert-half-hover: 0%;
+	--background-image: url("./images/background-grid.png");
+}
+
+.warm-dark-theme {
+	--main-background: #1a1713;
+	--secondary-background: #312f2c;
+	--third-background: #11100c;
+}
+
+.retro-dark-theme {
+	--main-background: #2b213a;
+	--secondary-background: #2e2c31;
+	--third-background: #231f41;
+	--h1-color: #ffecff;
+	--h1-shadow: 0 0 0.5em #ff00ff;
+	--h2-color: #d3ffff;
+	--h2-shadow: 0 0 0.5em #00ffff;
+	--text-color: #ececec;
+	--text-bright-color: white;
+	--red-color: #ff00ff;
+	--green-color: #314879;
+	--side-nav-link: #9c9c9c;
+	--side-nav-active-border: #665364;
+	--invert-full: 100%;
+	--invert-half: 55%;
+	--invert-half-hover: 80%;
+}
+
+@font-face {
+    font-family: 'monnaco';
+    src: url('./fonts/monnaco.otf');
+}
+
+body {
+	font-family: monnaco;
+	background-color: var(--main-background);
+	background-image: var(--background-image);
+	background-repeat: repeat;
+	color: var(--text-color);
+	text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	color: var(--title-color);
+	font-weight: 600;
+  	overflow: visible;
+}
+
+h1 {
+	color: var(--h1-color);
+	text-shadow: var(--h1-shadow);
+}
+
+h2 {
+	color: var(--h2-color);
+	text-shadow: var(--h2-shadow);
+}
+
+strong {
+	border-bottom: 1px dashed var(--red-color);
+}
+
+.button, input[type=button] {
+    color: var(--text-bright-color);
+    border: 2px solid var(--secondary-background);
+    height: 30px;
+    border-radius: 5px;
+    font-size: 20px;
+    background-color: var(--secondary-background);
+    padding-top: 2px;
+    padding-bottom: 3px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.button:hover, input[type=button]:hover {
+    cursor: pointer;
+	border: 1px solid var(--red-color);
+}
+
+.button:disabled, .button[disabled] {
+	cursor: not-allowed;
+	filter: opacity(50%);
+}
+
+.select {
+    color: var(--text-bright-color);
+    border: 0px none;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    background-color: var(--interactive);
+    min-width: 150px;
+    padding-bottom: 2px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.select:hover {
+    outline: 2px solid var(--text-color);
+}
+
+.no-margin {
+	margin: 0;
+}
+
+.no-padding {
+	padding: 0;
+}
+
+.linkify:hover {
+	cursor: pointer;
+}
+
+.invert-color {
+	filter: invert(var(--invert-full));
+}
+
+.side-icon {
+	filter: invert(var(--invert-half));
+}
+
+.side-icon:hover {
+	filter: invert(var(--invert-half-hover));
+}
+
+.circle-light-up {
+	border: 1px solid var(--main-background);
+}
+
+.circle-light-up:hover {
+	border-radius: 50%;
+	border: 1px solid var(--red-color);
+}
+
+.light-up-underline:hover {
+	text-decoration: underline;
+	text-decoration-color: var(--red-color)
+}
+
+.cent-container {
+	display: flex;
+    justify-content: center;
+}
+
+.completion-button {
+	background-color: var(--green-color);
+	border: 1px solid var(--green-color);
+	color: rgb(226, 226, 226);
+}
+
+.completion-button:hover {
+	border: 1px solid var(--text-color);
+}
+
+.mark_done_button:hover {
+	border: 2px solid #3ab33a;
+}
+
+.chapter-header {
+	margin-left: 50px;
+}
+
+li {
+	font-size: 18px;
+	margin-left: -28px;
+}
+
+.chapter {
+	max-width: 750px;
+	padding-left: 0px;
+	padding-right: 6px;
+}
+
+.chapter p {
+	font-size: 18px;
+}
+
+.side-nav {
+	height: 100%;
+	width: 50px;
+	position: fixed;
+	z-index: 1;
+	top: 0;
+	left: 0;
+	background-color: var(--third-background);
+	overflow-x: hidden;
+	padding-top: 20px;
+}
+
+.side-nav .link {
+	padding: 6px 8px 6px 9px;
+	text-decoration: none;
+	font-size: 25px;
+	color: var(--side-nav-link);
+	display: block;
+}
+
+.side-nav .link:hover {
+	color: var(--text-bright-color);
+}
+
+.side-nav .active-link {
+	color: var(--text-bright-color);
+	border: 2px solid var(--side-nav-active-border);
+	border-radius: 5px;
+	margin: 3px;
+}
+
+.settings-container {
+	display: none;
+	position: fixed;
+	z-index: 100;
+	justify-content: center;
+	align-items: center;
+	left: 50%;
+	top: 40%;
+}
+
+.settings {
+	position: absolute;
+	padding: 10px;
+	background-color: var(--secondary-background);
+	border-radius: 10px;
+	min-height: 270px;
+	min-width: 500px;
+	/* Center vertically and horizontally */
+	
+	filter: drop-shadow(12px 12px 1px black);
+}
+
+.overlay {
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
+  	z-index: 99;
+  	background: rgba(0, 0, 0, .6);
+  	-webkit-filter: blur(2px);
+  	-moz-filter: blur(2px);
+  	-o-filter: blur(2px);
+  	-ms-filter: blur(2px);
+  	filter: blur(2px);
+	display: none;
+}
+
+.middlefy {
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1000;
+}
+
+.close-settings {
+	position: absolute;
+	display: block;
+	height: 40px;
+	right: 10px;
+}
+
+/* Mobile friendly stuff */
+
+@media only screen and ((max-width: 600px) or (max-height: 400px)) {
+	.settings-container {
+		left: 0;
+		top: 0;
+	}
+	.settings {
+		min-height: 100vh;
+		min-width: 100vw;
+		border-radius: 0;
+		top: 0;
+		left: 0;
+	}
+	.close-settings {
+		margin-right: 20px;
+	}
+}
+
+@media only screen and (max-width: 470px) {
+	.completion-button {
+		margin-top: 10px;
+	}
+}
