@@ -142,7 +142,7 @@ strong {
     padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
-	font-family: var(--main-font);
+	font-family: monnaco;
 }
 
 .button:hover, input[type=button]:hover {
