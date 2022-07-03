@@ -1,6 +1,6 @@
 :root {
 	--main-background: #14131a;
-	--secondary-background: #333333;
+	--secondary-background: #2b2b2b;
 	--third-background: #101013;
 	--title-color: #e9e9e9;
 	--text-color: #dbdbdb;
@@ -18,7 +18,7 @@
 
 .light-theme {
 	--main-background: #dbdbdb;
-	--secondary-background: #b8b8b8;
+	--secondary-background: #c5c5c5;
 	--third-background: #e7e7e7;
 	--title-color: #111111;
 	--text-color: #080808;
@@ -31,7 +31,7 @@
 
 .light-grid-theme {
 	--main-background: #dbdbdb;
-	--secondary-background: #b8b8b8;
+	--secondary-background: #c5c5c5;
 	--third-background: #e7e7e7;
 	--title-color: #111111;
 	--text-color: #080808;
@@ -142,6 +142,7 @@ strong {
     padding-bottom: 3px;
     padding-left: 10px;
     padding-right: 10px;
+	font-family: var(--main-font);
 }
 
 .button:hover, input[type=button]:hover {
@@ -319,6 +320,23 @@ li {
 	display: none;
 }
 
+.menu-inner {
+	position: absolute;
+	background-color: var(--secondary-background);
+	width: 100vw;
+	padding: 10px;
+}
+
+.menu-container {
+	display: none;
+	position: fixed;
+	z-index: 100;
+	justify-content: center;
+	align-items: center;
+	top: 0;
+	left: -10px;
+}
+
 .middlefy {
 	position: fixed;
 	top: 0;
@@ -349,6 +367,15 @@ li {
 	}
 	.close-settings {
 		margin-right: 20px;
+	}
+	.side-nav {
+		display: none;
+	}
+	.chapter-header {
+		margin: 2px;
+	}
+	.menu-container {
+		display: block;
 	}
 }
 

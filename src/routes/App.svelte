@@ -57,7 +57,7 @@
 		{
 			name: "Neurology",
 			title: "Neurology",
-			subtitle: "How the chemicals in our brain work.",
+			subtitle: "How the chemicals in our brains work.",
 			md: C6
 		},
 		{
@@ -75,7 +75,7 @@
 		{
 			name: "Transmutation",
 			title: "Transmutation",
-			subtitle: "Ending notes.",
+			subtitle: "Closing notes.",
 			md: C9
 		},
 		{

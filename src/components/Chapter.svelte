@@ -20,6 +20,7 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
     let completed = false;
     let boogoodled = false;
     let completed_all = false;
+    let mobile_menu_open = false;
 
     let popup_type = "settings";
 
@@ -86,6 +87,20 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
         document.documentElement.classList.add(selected_font.real+"-font");  
     }
 
+    const toggle_mobile_menu = () => {
+        let side_nav = document.getElementsByClassName("side-nav")[0];
+        let chap_header = document.getElementsByClassName("chapter-header")[0];
+        if(!mobile_menu_open) {
+            side_nav.style.display = "block";
+            chap_header.style.marginLeft = "50px";
+        } else {
+            side_nav.style.display = "none";
+            chap_header.style.marginLeft = "0px";
+        }
+        mobile_menu_open = !mobile_menu_open;
+        console.log(mobile_menu_open)
+    }
+
     const toggle_settings = () => {
         popup_type = "settings";
         toggle_popup();
@@ -138,13 +153,20 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
         <title>Chapter {chapter} - {title} (ppmo)</title>
     </header>
 
+    {#if !mobile_menu_open}
+    <div class="menu-container" on:click={() => toggle_mobile_menu()}>
+        <div class="linkify menu-inner">Menu</div>
+    </div>
+    {/if}
+
+
     <div class="middlefy">
         <div class="overlay" on:click={() => toggle_popup()}></div>
 
         <div class="settings-container">
             <div class="settings">
                 <div on:click={() => toggle_popup()}>
-                    <img src="../images/close-outline.svg" class="close-settings linkify invert-color" alt="close">
+                    <img src="../images/close-outline.svg" class="close-settings linkify invert-color" alt="close" title="Close (duh?)">
                 </div>
                 {#if popup_type == "settings"}
 
@@ -169,7 +191,7 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
 
                 <br><br>
                 <a href="https://github.com/free-synd/ppmo-site" target="_blank">
-                    <img src="../images/github-logo.svg" alt="github" class="invert-color" height=30px>
+                    <img src="../images/github-logo.svg" alt="github" class="invert-color" title="Visit project GitHub (source code)" height=30px>
                 </a>
 
                 {:else}
@@ -182,6 +204,9 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
     </div>
 
     <div class="side-nav">
+        {#if mobile_menu_open}
+        <img src="../images/close-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Close menu" alt="close" on:click={() => toggle_mobile_menu()}>
+        {/if}
         <Link to="/" class="link" title="Visit Home">H</Link>
         {#each chapters as chap, i}
             {#if i == chapter}
