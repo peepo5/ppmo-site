@@ -12,16 +12,20 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
 
     export let chapters = [];
     export let themes = [];
+    export let fonts = [];
 
     let completion_disabled = true;
     let mark_done_disabled = false;
+
     let completed = false;
     let boogoodled = false;
     let completed_all = false;
-    let popup_type = "settings";
-    let selected_theme;
 
-    console.log(typeof chapters);
+    let popup_type = "settings";
+
+    let selected_theme;
+    let selected_font;
+
     let next_chapter = {};
 
     if(chapter != chapters.length-1) {
@@ -74,6 +78,14 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
         document.documentElement.classList.add(selected_theme.real+"-theme");  
     }
 
+    const update_font = () => {
+        localStorage.setItem("font", selected_font.real);
+        for(let i = 0; i < fonts.length; i++) {
+            document.documentElement.classList.remove(fonts[i].real+"-font");
+        }
+        document.documentElement.classList.add(selected_font.real+"-font");  
+    }
+
     const toggle_settings = () => {
         popup_type = "settings";
         toggle_popup();
@@ -97,12 +109,23 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
     	complete_chapter();
     }
 
-
+    // Update theme selection
     let ls_theme = localStorage.getItem("theme");
     if(ls_theme != undefined) {
         for(let i = 0; i < themes.length; i++) {
             if(themes[i].real == ls_theme) {
                 selected_theme = themes[i];
+                break;
+            }
+        }
+    }
+
+    // Update font selection
+    let ls_font = localStorage.getItem("font");
+    if(ls_font != undefined) {
+        for(let i = 0; i < fonts.length; i++) {
+            if(fonts[i].real == ls_font) {
+                selected_font = fonts[i];
                 break;
             }
         }
@@ -114,7 +137,6 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
     <header>
         <title>Chapter {chapter} - {title} (ppmo)</title>
     </header>
-
 
     <div class="middlefy">
         <div class="overlay" on:click={() => toggle_popup()}></div>
@@ -135,11 +157,22 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
                     </option>
                     {/each}
                 </select>
+                <br><br>
+                <label for="select">Font</label>
+                <select class="select fontify-pls" bind:value={selected_font} on:change={() => update_font()}>
+                    {#each fonts as t}
+                    <option value={t}>
+                        {t.title}
+                    </option>
+                    {/each}
+                </select>
 
-                
+                <br><br>
+                <a href="https://github.com/free-synd/ppmo-site" target="_blank">
+                    <img src="../images/github-logo.svg" alt="github" class="invert-color" height=30px>
+                </a>
 
                 {:else}
-
                 <h1>Languages</h1>
                 <p>English-only for now.</p>
                 <p>Translations will come at a later date.</p>

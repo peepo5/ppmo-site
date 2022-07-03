@@ -120,8 +120,36 @@
             title: "Retro Theme",
             real: "retro-dark"
         },
+		{
+            title: "Black Theme (OLED)",
+            real: "black"
+        },
     ];
 
+	let font = localStorage.getItem("font");
+	if (font != undefined) {
+		document.documentElement.classList.add(font+"-font");
+	} else {
+		for(let i = 0; i < themes.length; i++) {
+			document.documentElement.classList.remove(font+"-font");
+		}
+	}
+
+	// Font detection and change
+	let fonts = [
+        {
+            title: "Monnaco",
+            real: "monnaco"
+        },
+		{
+            title: "Open Sans",
+            real: "open-sans"
+        },
+		{
+            title: "Open Dyslexic",
+            real: "open-dyslexic"
+        },
+    ];
 
 	let theme = localStorage.getItem("theme");
 	if (theme != undefined) {
@@ -131,8 +159,6 @@
 			document.documentElement.classList.remove(theme+"-theme");
 		}
 	}
-
-
 </script>
 
 <Router primary={false}>
@@ -147,6 +173,7 @@
 				md={chapter.md}
 				themes={themes}
 				chapters={chapters}
+				fonts={fonts}
 			/>
 		</Route>
 	{/each}

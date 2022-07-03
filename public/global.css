@@ -12,6 +12,8 @@
 	--invert-full: 100%;
 	--invert-half: 55%;
 	--invert-half-hover: 80%;
+	--main-font: monnaco;
+	--para-size: 18px;
 }
 
 .light-theme {
@@ -50,6 +52,12 @@
 	--third-background: #11100c;
 }
 
+.black-theme {
+	--main-background: #000000;
+	--secondary-background: #080808;
+	--third-background: #030303;
+}
+
 .retro-dark-theme {
 	--main-background: #2b213a;
 	--secondary-background: #2e2c31;
@@ -72,6 +80,26 @@
 @font-face {
     font-family: 'monnaco';
     src: url('./fonts/monnaco.otf');
+}
+
+@font-face {
+    font-family: 'open-sans';
+    src: url('./fonts/open-sans.ttf');
+}
+
+@font-face {
+    font-family: 'open-dyslexic';
+    src: url('./fonts/open-dyslexic.otf');
+}
+
+.open-sans-font {
+	--main-font: open-sans;
+	--para-size: 17px;
+}
+
+.open-dyslexic-font {
+	--main-font: open-dyslexic;
+	--para-size: 17px;
 }
 
 body {
@@ -210,13 +238,18 @@ li {
 }
 
 .chapter {
+	font-family: var(--main-font);
 	max-width: 750px;
 	padding-left: 0px;
 	padding-right: 6px;
 }
 
+.chapter h1, h2, h3, h4, h5, h6 {
+	font-family: var(--main-font);
+}
+
 .chapter p {
-	font-size: 18px;
+	font-size: var(--para-size);
 }
 
 .side-nav {
@@ -323,4 +356,7 @@ li {
 	.completion-button {
 		margin-top: 10px;
 	}
+}
+.fontify-pls {
+	font-family: var(--main-font);
 }
