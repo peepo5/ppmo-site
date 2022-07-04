@@ -322,7 +322,7 @@ li {
 
 .menu-inner {
 	position: absolute;
-	background-color: var(--secondary-background);
+	background-color: var(--third-background);
 	width: 100vw;
 	padding: 10px;
 }
