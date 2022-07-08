@@ -5,17 +5,17 @@
 	import Chapter from "../components/Chapter.svelte";
 
 	// Chapters
-	import C0 from "../markdown/0. Prefix.md";
-	import C1 from "../markdown/1. Introduction.md";
-	import C2 from "../markdown/2. Benefits.md";
-	import C3 from "../markdown/3. Ownership.md";
-	import C4 from "../markdown/4. Desire.md";
-	import C5 from "../markdown/5. Nature.md";
-	import C6 from "../markdown/6. Neurology.md";
-	import C7 from "../markdown/7. Brainwashing.md";
-	import C8 from "../markdown/8. Neuroplasticity.md";
-	import C9 from "../markdown/9. Transmutation.md";
-	import C10 from "../markdown/10. Freedom.md";
+	import C0 from "../markdown/english/0. Prefix.md";
+	import C1 from "../markdown/english/1. Introduction.md";
+	import C2 from "../markdown/english/2. Benefits.md";
+	import C3 from "../markdown/english/3. Ownership.md";
+	import C4 from "../markdown/english/4. Desire.md";
+	import C5 from "../markdown/english/5. Nature.md";
+	import C6 from "../markdown/english/6. Neurology.md";
+	import C7 from "../markdown/english/7. Brainwashing.md";
+	import C8 from "../markdown/english/8. Neuroplasticity.md";
+	import C9 from "../markdown/english/9. Transmutation.md";
+	import C10 from "../markdown/english/10. Freedom.md";
 
 	let chapters = [
 		{

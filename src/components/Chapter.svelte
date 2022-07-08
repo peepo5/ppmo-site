@@ -1,6 +1,4 @@
 <script>
-import { forEach } from "markdown-it/lib/common/html_blocks";
-
     import { Link } from "svelte-navigator";
     import Typewriter from "svelte-typewriter";
     import Markdown from "./Markdown.svelte";
@@ -210,9 +208,9 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
         <Link to="/" class="link" title="Visit Home">H</Link>
         {#each chapters as chap, i}
             {#if i == chapter}
-            <Link to="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}">{i}</Link>
+            <Link to="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
             {:else}
-            <Link to="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}">{i}</Link>
+            <Link to="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
             {/if}
         {/each}
         <img src="../images/language-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open languages" alt="languages" on:click={() => toggle_languages()}>
@@ -224,6 +222,12 @@ import { forEach } from "markdown-it/lib/common/html_blocks";
         <h1 class="light-up-underline" style="margin-top:2px;">{title}</h1>
         {#if subtitle != ""}
             <Typewriter interval={60} cursor={false}><h4 class="no-margin" style="font-size: 20px;padding:5px;"><i>{subtitle}</i></h4></Typewriter>
+        {/if}
+
+        {#if chapter == 0}
+        <audio controls style="margin-top:12px" title="Some fitting audio. From Lil Darkie - Dreaming.">
+            <source src="../intro.mp3" type="audio/mpeg">
+        </audio> 
         {/if}
 
         <div class="cent-container">
