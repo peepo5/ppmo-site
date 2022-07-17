@@ -137,13 +137,13 @@
 
 	// Font detection and change
 	let fonts = [
-        {
-            title: "Monnaco",
-            real: "monnaco"
-        },
 		{
             title: "Open Sans",
             real: "open-sans"
+        },
+        {
+            title: "Monnaco",
+            real: "monnaco"
         },
 		{
             title: "Open Dyslexic",
