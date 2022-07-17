@@ -12,8 +12,8 @@
 	--invert-full: 100%;
 	--invert-half: 55%;
 	--invert-half-hover: 80%;
-	--main-font: monnaco;
-	--para-size: 18px;
+	--main-font: open-sans;
+	--para-size: 17px;
 }
 
 .light-theme {
@@ -92,9 +92,9 @@
     src: url('./fonts/open-dyslexic.otf');
 }
 
-.open-sans-font {
+.monnaco-font {
 	--main-font: open-sans;
-	--para-size: 17px;
+	--para-size: 18px;
 }
 
 .open-dyslexic-font {
