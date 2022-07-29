@@ -87,7 +87,7 @@
 	];
 
 	// If this changes, book progress is removed
-	const major_vers = "1-main";
+	const major_vers = "1.5-main";
 	const exist_vers = localStorage.getItem("ppmo_version");
 
 	if (exist_vers != undefined) {
