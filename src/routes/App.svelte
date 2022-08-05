@@ -1,5 +1,4 @@
 <script>
-	import mixpanel from 'mixpanel-browser';
 	import { Router, Route } from "svelte-navigator";
 	import Home from "./Home.svelte";
 	import x from  "../components/trash/x.svelte";
@@ -167,10 +166,6 @@
 			document.documentElement.classList.remove(theme+"-theme");
 		}
 	}
-
-	console.log("Loaded stats")
-	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true, ignore_dnt: true});
-	mixpanel.track('Main');
 </script>
 
 <Router primary={false}>
