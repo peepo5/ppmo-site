@@ -168,7 +168,8 @@
 		}
 	}
 
-	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true}); 
+	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true});
+	mixpanel.track('Main');
 </script>
 
 <Router primary={false}>
