@@ -168,7 +168,8 @@
 		}
 	}
 
-	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true});
+	console.log("Loaded stats")
+	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true, ignore_dnt: true});
 	mixpanel.track('Main');
 </script>
 
