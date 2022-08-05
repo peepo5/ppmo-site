@@ -1,4 +1,5 @@
 <script>
+	import mixpanel from 'mixpanel-browser';
 	import { Router, Route } from "svelte-navigator";
 	import Home from "./Home.svelte";
 	import x from  "../components/trash/x.svelte";
@@ -15,7 +16,8 @@
 	import C7 from "../markdown/english/7. Brainwashing.md";
 	import C8 from "../markdown/english/8. Neuroplasticity.md";
 	import C9 from "../markdown/english/9. Transmutation.md";
-	import C10 from "../markdown/english/10. Freedom.md";
+	import C10 from "../markdown/english/10. Moving On.md";
+	import C11 from "../markdown/english/11. Freedom.md";
 
 	let chapters = [
 		{
@@ -79,10 +81,16 @@
 			md: C9
 		},
 		{
+			name: "Move On",
+			title: "Moving On",
+			subtitle: "You have to put yourself first.",
+			md: C10
+		},
+		{
 			name: "Freedom",
 			title: "Freedom",
 			subtitle: "Forever onwards",
-			md: C10
+			md: C11
 		},
 	];
 
@@ -159,6 +167,8 @@
 			document.documentElement.classList.remove(theme+"-theme");
 		}
 	}
+
+	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true}); 
 </script>
 
 <Router primary={false}>
