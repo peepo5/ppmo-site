@@ -57,7 +57,7 @@ You might have heard of "nofap" before, but if you have not, most people hear ab
 
 Most people join the bandwagon of porn, as most people use it, so 'it must be fine', denouncing any evidence proving them wrong as they would rather be blissful in ignorance than living in truth. However, nothing can escape the fact that PMO has numerous adverse effects on the 'casual' user and 'heavy' user alike.
 
-Negative effects span from low energy, low motivation, lessened ability to do work, lowered respect for women, depression, anxiety when interacting with others, porn-induced erectile dysfunction, relationship problems, acne, lowered testosterone, obsession with porn and fantasies, questioning sexuality despite no previous interest, and more. Many people believe nofap provides benefits, but it is actually just the negatives of fapping itself being removed.
+Negative effects span from low energy, low motivation, lessened ability to do work, lowered respect for women, depression, anxiety when interacting with others, porn-induced erectile dysfunction, relationship problems, acne, lowered testosterone (indirect), obsession with porn and fantasies, questioning sexuality despite no previous interest, and more. Many people believe nofap provides benefits, but it is actually just the negatives of fapping itself being removed.
 
 These effects are not anecdotal and do not happen to a minority group. Instead, all users of porn suffer some degree of these symptoms, no matter if they realize it. Like the 'boiling frog', if a change occurs slowly and we are not knowledgeable, we are unlikely to notice it. Many problems in our personal lives could be directly or indirectly related to porn, yet we may be none the wiser. However, there is not much point in proving these negative effects (over again), as the neurochemical effects of porn are well understood. Just ask any ex-user that has been entirely freed from porn and masturbation. Unless they thought they would gain superpowers using nofap, the user would likely explain the positive changes they experienced after leaving.
 
@@ -137,7 +137,7 @@ Therefore make this key understanding - **The benefits of nofap are not direct b
 ## Neurochemical Changes Through PMO And MO
 Any doubt of the negatives comes from the nature of addiction. It happens slowly. If, in one day, you went back to what you felt like before you started, the difference would be more apparent. - this is the 'boiling frog' analogy.
 
-One of the most prevalent problems that porn creates is anxiety. First of all, it has been proven that porn lessens testosterone levels, lowering confidence. It also makes you less incentivized to be social (through dopamine culling), which in turn amounts to anxiety.
+One of the most prevalent problems that porn creates is anxiety. The misdirection of sexual energy also causes a lack of confidence, and testosterone is lowered indirectly through self neglect (part of dopamine desensatization). It also makes you less incentivized to be social (through dopamine culling), which in turn amounts to anxiety.
 
 Another reason that porn is unproductive comes from dopamine desensitization. When we receive abnormal amounts of dopamine, our bodies remove receptors to account for the unusual levels. This seems fine. However, it affects all other activities, not just porn.
 
