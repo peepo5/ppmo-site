@@ -291,6 +291,14 @@
                 <Markdown markdown={md}/>
             </div>
         </div>
+        {#if chapter == chapters.length-1}
+        <br>
+        <a href="https://opencollective.com/ppmo-collective-fund" target="_blank">
+            <button class="button" title="Donate to help the ppmo project" style="background-color:#314879">Donate via opencollective</button>
+        </a>
+        <br><br>
+
+        {/if}
         {#if !completed_all}
         <button class="button mark_done_button" on:click={() => complete_chapter()} title="Mark the current chapter complete">
             {#if !completed}
