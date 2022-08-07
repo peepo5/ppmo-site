@@ -1,33 +1,42 @@
 # Chapter 0. Prefix.md
-Freedom comes through understanding. **DO NOT SKIP CHAPTERS.**
+**DO NOT SKIP CHAPTERS.**
 
-You can check out the settings on the side tab if you want to customize how the site looks when you are reading (but don't go too crazy with customization).
+Freedom comes through understanding.
+
+This book will wake you up to the reality of the porn and masturbation trap. It will allow you to see past your current limitations, living life in clarity.
+
+## About The Site
+
+Before we start, let's brush over a few important things.
+
+You can check out the settings on the side tab if you want to change theme, font or language (languages coming soon).
 
 Also, each chapter has a button to let you mark it as complete.
-You can also read this book on mobile or on desktop.
+You can read this book on mobile or on desktop.
 After marking the chapter as complete, you can progress to the next chapter. Try it for this chapter.
 
-### Important Note From The Author
-Regardless of what you have read previously, read every word with humility and sincerity.
+## Important Note
 
-Compare the words to your real life experiences. Challenge them. Do not continue without resolve.
+Regardless of what you have read previously, read every word with humility.
 
-The process is no mechanical thing. You can use no formula, but instead must seek understanding.
+Compare the words to your real life experiences. Challenge them. You can use no formula or list of steps to become free, but instead must seek understanding, and find it within yourself.
 
-**We are seeking truth.**
+**The goal should be to seek truth.**
 
-Do not believe the words that follow in this book. Instead, find the truth within them.
+Do not believe the words that follow in this book. Instead, search for the truth within them.
 
-Belief does not encourage freedom. Because belief is subjective. Truth is universal.
+Blind belief does not encourage freedom. Because belief is subjective. Truth is universal. To attain truth, you must seek it.
 
-**Change your focus from methods and guides to understanding truth.**
+**It is important that you change your focus from methods and guides to understanding truth.**
 
 With that said, my heart goes out to all of you.
 
-I hope this book is of benefit.
+I hope this book will change your life.
+
+Book version: 3.0 (English)
 
 # Chapter 1. Introduction.md
-Hey there, welcome to ppmo (the book). Through whatever way you found yourself here, maybe a recommendation, random link or any other method, you are lucky to have such an opportunity present itself by mere chance.
+Hey there, welcome the ppmo book. Through whatever way you found yourself here, maybe a recommendation, random link or any other method, I am happy you have made it here.
 
 This book details the practice of leaving pornography and masturbation in favor of benefits - it is a guide to help you gain control over your life and to realize your potential. There is so much potential within yourself that can be unlocked once porn and masturbation are left, and with every cell in my body, I wish for you to complete this text, as I truly believe that it will change your life.
 
@@ -35,26 +44,26 @@ One understanding I want you to have is that you need to approach this in a way 
 
 Also, before we get started, you should understand this: **DO NOT skip chapters.** This book has been crafted to help you quit without friction. If you miss critical information, you only have yourself to blame for any failures, so read everything as attentively as possible.
 
-> Just for context, within this book, all instances of NoFap are not referring to the subreddit or website but the practice of PMO/MO*.
+> Just for context, within this book, all instances of "nofap" are not referring to the NoFap subreddit or website but the practice of no-PMO/MO*. We do not condone spam of NoFap communities.
 
-**P/MO Definition: `Porn, Masturbation & Orgasm`** - When used in writing, PMO can also refer to fapping on its own.
+**PMO Definition: `Porn, Masturbation & Orgasm`** - When used in writing, PMO can also refer to fapping on its own (MO).
 
-**User Definition: `Somebody that uses porn or faps.`**
+**User Definition: `Somebody that uses porn or masturbates.`**
 
 ## The Sad World Of Nofap
-> Every intelligent person knows that stimulation in excess, through alcoholic drink and narcotics, is a form of intemperance which destroys the vital organs of the body, including the brain. Not every person knows, however, that over indulgence in sex expression may become a habit as destructive and as detrimental to creative effort as narcotics or liquor.
+You might have heard of "nofap" before, but if you have not, most people hear about it in a similar way. Through a YouTube video that popped up as a suggestion, a link a friend sent us, or even a meme. If you have been linked this book, you must have been intregued to see what lies within. However, for those of you that have already heard of "nofap" you will likely know the sad truth around the "community".
 
-Most of us stumbled across nofap in a similar way. Maybe through a YouTube video that randomly popped up in our suggestion feed, a link our friend sent us, or even a meme. Whatever the case was, it intrigues us to hear what nofap is. We hear that what seemed like a supposedly regular activity that nearly all males (and a lot of females) practice in the current day and age is deemed to be harmful.
+> Every intelligent person knows that stimulation in excess, through alcoholic drink and narcotics, is a form of intemperance which destroys the vital organs of the body, including the brain. Not every person knows, however, that over indulgence in sex expression may become a habit as destructive and as detrimental to creative effort as narcotics or liquor.
 
 Most people join the bandwagon of porn, as most people use it, so 'it must be fine', denouncing any evidence proving them wrong as they would rather be blissful in ignorance than living in truth. However, nothing can escape the fact that PMO has numerous adverse effects on the 'casual' user and 'heavy' user alike.
 
 Negative effects span from low energy, low motivation, lessened ability to do work, lowered respect for women, depression, anxiety when interacting with others, porn-induced erectile dysfunction, relationship problems, acne, lowered testosterone, obsession with porn and fantasies, questioning sexuality despite no previous interest, and more. Many people believe nofap provides benefits, but it is actually just the negatives of fapping itself being removed.
 
-These effects are not anecdotal and do not happen to a minority of people. All users of porn suffer some degree of these symptoms, no matter if they realize it. Like the 'boiling frog', if a change occurs slowly and we are not knowledgeable, we are unlikely to notice it. Many problems in our personal lives could be directly or indirectly related to porn, yet we may be none the wiser. However, there is not much point in proving these negative effects (over again), as the neurochemical effects of porn are well understood. Just ask any ex-user that has been entirely freed from porn and masturbation. Unless they thought they would gain superpowers using nofap, the user would likely explain the positive changes they experienced after leaving.
+These effects are not anecdotal and do not happen to a minority group. Instead, all users of porn suffer some degree of these symptoms, no matter if they realize it. Like the 'boiling frog', if a change occurs slowly and we are not knowledgeable, we are unlikely to notice it. Many problems in our personal lives could be directly or indirectly related to porn, yet we may be none the wiser. However, there is not much point in proving these negative effects (over again), as the neurochemical effects of porn are well understood. Just ask any ex-user that has been entirely freed from porn and masturbation. Unless they thought they would gain superpowers using nofap, the user would likely explain the positive changes they experienced after leaving.
 
-So, let's return to the idea that we have discovered nofap through a YouTube video. Hundreds of YouTubers have made videos on quitting porn and masturbation, with thousands of videos advising about quitting. However, there lies a sad truth between the lines that the average viewer is oblivious to - most advice given by these 'self-development' YouTubers/mentors has a meager success rate.
+So, let's return to the idea that we might have discovered nofap through a YouTube video. Hundreds of YouTubers have made videos on quitting porn and masturbation, with thousands of videos advising about quitting. However, there lies a sad truth between the lines that the average viewer is oblivious to - most advice given by these 'self-development' YouTubers/mentors has a meager success rate.
 
-This is because people approach PMO as a habit rather than an addiction. Habits are hard to break but can be broken with enough motivation and a consistent desire. Addictions, on the other hand, can never be fixed with motivation. Many "influencers" also use motivation as the primary cause for doing nofap. MOTIVATION IS TEMPORARY.
+This is because people approach leaving PMO with a need for motivation. Some things can be broken with motivation, but havits/addictions cannot. Many "influencers" also use motivation as the primary cause for doing nofap. MOTIVATION IS TEMPORARY.
 
 When you want to start something, often motivation is a good starting point, but motivation never leads to consistency. Nearly all popular advice uses motivation as the basis, which leads to the user having an incentive that quickly disappears, leading them right back into the trap. Sustainability comes from a genuine desire and intrinsic motivation to improve yourself. Therefore, motivation should not be used as a basis for leaving.
 
@@ -72,7 +81,7 @@ To solve addiction, you need an understanding of some key mental concepts to gai
 
 Addiction to porn and masturbation is a battle between components of the mind. The internal struggle for control is fought so hard yet lost so frequently, leaving many feeling hopeless. The logical part of our brain (the pre-frontal cortex, which represents our true self the most) has the desire to leave the addiction once and for all. But little do we know that the primitive part of our brain (the amygdala) is the part of the brain that blindly wants addiction to continue - so we must have an understanding of our brain to become free.
 
-But why do people complain about PMO more than any other addiction? - This is for the simple fact that it is embarrassing to talk about. Due to human nature and shame, it is often kept under wraps, getting progressively worse over the years, trapping the user for the rest of their lives. It is hard to approach friends and family about it because it would seem weird and incredibly awkward. This is the part of it that is most likely the worse. Those with addictions to smoking, food, drugs, and other instant pleasures can approach others and relatively easily find professionals to fix their issues. Societies can criticize the people producing what causes the addiction, and then collective progress can be made. But due to the awkward nature of talking about porn, such a collective sentiment is likely never to happen.
+But why is PMO most annoying? - This is because it is embarrassing to talk about. Due to human nature and shame, it is often kept under wraps, getting progressively worse over the years, trapping the user for the rest of their lives. It is hard to approach friends and family about it because it would seem weird and incredibly awkward. This is the part of it that is most likely the worse. Those with addictions to smoking, food, drugs, and other instant pleasures can approach others and relatively easily find professionals to fix their issues. Societies can criticize the people producing what causes the addiction, and then collective progress can be made. But due to the awkward nature of talking about porn, such a collective sentiment is likely never to happen.
 
 **How do we overcome failing?**
 To succeed in escaping from PMO, you need to have a fundamental paradigm shift in your mind. Your mental paradigm is your framework of concepts that dictate your outlook on the world and your abilities - this is a broader control of the mind through mindfulness and an understanding of neuroplasticity. The user that leaves the trap forever needs to understand these ideas.
@@ -87,6 +96,8 @@ Be aware not to base your reasoning for quitting on any false incentives. Some o
 - "I don't care what my friend thinks; it is not a big deal anyway."
 - "She is already happy. It really is not that bad."
 - "I can just do it less, and I can still be disciplined."
+- "I will just do it rarely."
+- "I will just watch the 'soft stuff'."
 
 False incentives provide the ammo to fuel your brain's defense mechanisms. As a response to what our brains interpret as a threat, we have some key reactions. We dismiss opposing views and make illogical justifications and excuses for our actions. Defense mechanisms are what your brain uses when you are in a reactionary state, so instead of having a false incentive, you should have an incentive grounded in yourself.
 
@@ -96,18 +107,23 @@ Forget the initial incentive for being interested or wanting to quit. Make the u
 
 Do not quit for anybody else. Quit for yourself.
 
-## Important Notes About The Book
-We do not drive a car on the highway without learning how to drive first. We do not fly a plane or do other activities that require knowledge to complete before learning how to first. Therefore, we must also not quit porn or masturbation before consciously deciding to.
+## Important Note About The Book
+We do not drive a car on the highway without learning how to drive first. We do not fly a plane or do other activities that require knowledge to complete before learning how to first. Therefore, we must also not quit porn or masturbation before consciously deciding to
+**You can continue watching porn/fapping while reading the book.**
 
-**It is your choice if you keep using porn/fapping while reading the book.**
+This advice may seem counter-intuitive, but really, it is not. Until you finish, you have no inclination to stop.
+You should not quit watching porn or masturbating until you finish this book.
 
-This advice may seem counter-intuitive, but really, it is not. Until you finish, you have no inclination to stop. Until the end of the book, if you feel like using, use; if you feel like not doing it, do not do it.
+**Also, you should not ask any questions about this book before completing. They will likely be answered in the book.**
 
-**Another important message is to read to the end.**
-
-It breaks my heart to know that people will only read part way through this book. I want everybody to stop struggling, stop fighting themselves, and gain a higher level of control over their lives. Make it your most important goal to read this book without distractions, and make it essential to read at a pace where you truly understand, so do not skim to come to a proper understanding.
+## How To Finish This Book
+Many will not finish this book. They will lose motivation, and will forever be a victim to the porn trap until the day they die. This one drop in desire will result in the continous decline in enjoyment of living, when the cycle continues further. If you do not want this, make reading this book a priority.
 
 Your conscious intention to do something increases your brain's ability to wire in new ideas. I wish that with your conscious choice to learn the ideas expressed here, they will make a positive and valuable contribution to how you think, the actions you take, and the things you achieve.
+
+If you want to read this book, without getting stuck in the middle or procrastinating, make it your highest priority to read this book within a week.
+
+It should be your upmost priority to fufill this promise - then it shall be done.
 
 # Chapter 2. Benefits.md
 Leaving PMO provides many benefits and positives, as detailed in the introduction. These positives come from the changes in our neurochemistry and our ability to control our reactions to emotions. However, technically, leaving PMO has no positives - it is just the removal of negatives.
@@ -151,7 +167,7 @@ The main negative of masturbation (and porn on top) is that it drains your energ
 
 Another negative of masturbation and porn is that it is a giant waste of time. The amount of time spent seeking and searching for the perfect clip and masturbating itself takes considerable time, meaning that sleep may be sacrificed, or other activities may be put off. When people stop using PMO, they are often shocked at how much time they have, and that is also why they should change their lifestyle so that PMO has no place.
 
-There are also more anecdotal (but consistently shown) negatives to PMO. PMO can create more acne and spots, it can lessen hair growth (and can cause it to recede), it can cause users to become gay or LGBT when they had no previous interest (just through hypersexualization), increased objectification of the other sex, more self-control and more. People that have left have shown consistent improvements across these things.
+There are also more anecdotal (but consistently shown) negatives to PMO. PMO can create more acne and spots, it can lessen hair growth (and can cause it to recede), it can cause users to become gay or LGBT when they had no previous interest (just through hypersexualization), increased objectification of the other sex, less self-control, and more. People that have left have shown consistent improvements across these things.
 
 However, I want you to understand that no matter how many negatives of porn (or positives of leaving) that you know of, no matter how many studies you research, no matter how many books you read, no matter how many conversations you have about why porn is bad, **it will not help you in leaving.**
 
@@ -201,6 +217,11 @@ Even if we have valid reasons to attribute our problem to the people that caused
 Therefore you need to take **extreme ownership** of the addiction. You need to take all the responsibility onto yourself and hold yourself accountable, even if the problem is not your fault. Doing this will allow you to find a solution to the problem. By taking ownership, you accept the responsibility to fix the problem rather than waiting for somebody else to fix it.
 
 It is easy to hate the people that produce pornography content, and it is easy to hate the women or men that participate in the content. However, hate will never provide the solution to your addiction. Yes, we should hold them accountable, but do not direct your anger and hate towards those that fueled your addiction - instead, funnel anger towards your negative mental schemas and pathways that continue to pedal addiction to PMO.
+
+## Over Intellectualization
+For some, they believe that logic and being an "intellectual" alone can bring them to a path of truth and freedom from problems. However, trying to use "intellectualism" alone is unlikely to bring you to the truth.
+
+Nobody became a user through a logical or intellectual decision. They become a user through emotion, and what we percieve as pleasure. But as that pleasure fades into an ever-spiralling chase for freedom from the crutch, we start to grasp what is actually pleasurable.
 
 # Chapter 4. Desire.md
 **Transmutation Definition - `The process of turning one state of mind or energy into another, either positive or negative.`**
@@ -258,32 +279,29 @@ Auto-suggestion is the repeated affirmation of thought to the subconscious (with
 
 # Chapter 5. Nature.md
 ## The Sinister Trap
-The trap comes in two parts. There is porn, and there is masturbation. Porn is what most people talk about as being bad. However, both porn and masturbation are negative sums, and they are so intertwined that most of the time, you cannot leave one without leaving the other. And even if you can use masturbation on its own without porn, there is no point to it because you can instead use that energy for sexual transmutation into other activities.
+The trap comes in two parts. There is porn, and there is masturbation. Porn is what most people talk about as being bad. However, both porn and masturbation are negative sums, and they are so intertwined that, most of the time, you cannot leave one without leaving the other. And even if you can use masturbation on its own without porn, there is no point to it because you can instead use that energy for sexual transmutation into other activities.
 
 **Hypersexualization Definition `The hyperactive oversexualization that comes from porn and fast-speed innuendo`**
+
+> The problem is not to do with your character. The problem is communicating with human nature.
 
 Porn and hypersexualization influence us from a young age. Most of us hear about porn / sexual content through social media on a recurring basis. This constant referring to these 'normal' activities makes the non-user have a novel curiosity about what everyone is talking about, which will inevitably lead them to become a user.
 
 Internet porn works through hijacking natural reward mechanisms designed to keep you reproducing for as long as possible. Porn's instant and highly accessible form keep the brain's reward mechanism producing dopamine significantly longer than naturally possible. Scientifically, this is called the Coolidge effect, which you might already have heard of. This effect is present in many animals, but in nature, after having real sex with a partner, you are satisfied and satiated. However, with internet porn's nature, you can browse through millions of online 'partners', meaning that your brain goes into overload, overloading your natural limiter.
 
-Dopamine is the neurotransmitter associated with feelings of wanting/seeking, with the actual feeling of pleasure produced by opioids. Dopamine is what makes you want to do something. Dopamine makes you want to start an activity in search of its potential reward. The big problem we run into here is that because porn overloads your dopamine sensors to such a high level, your brain automatically trims your dopamine receptors to regulate your neurochemicals. This will make smaller tasks seem less attractive because there seems to be a low reward as you are desensatized to the reward. Nominal amounts of dopamine produced by natural rewards simply don't compare to pornography and aren't as efficiently absorbed by the decreased receptors, leading you to feel more stressed, irritated, and directionless than before.
-
-**Dopamine desensatization effects (examples)**
-- Less incentivized to make general efforts
-- Harder to read books
-- Harder to be creative (artistic, coding, etc.)
-- More incentivized to play games and to watch mundane content (YouTube, TikTok etc.)
-- Harder to think clearly as it seems there is not as much reward for it as watching porn seems more rewarding
+Dopamine is the neurotransmitter associated with feelings of wanting/seeking, with the actual feeling of pleasure produced by opioids. Dopamine is what makes you want to do something. Dopamine makes you want to start an activity in search of its potential reward.
 
 Dopamine is also released in response to novelty. With a seemingly infinite amount of porn available, this floods the limbic system (mental reward circuit), so the first time you see porn, you act and masturbate, triggering another flood of opioids. Incentivized to get what your brain thinks is a reward again, it saves this mental pathway (like a script) for easy recall, and it strengthens these neural pathways every time you use it again through a chemical called DeltaFosB. Every time you use porn, it becomes even more automatic because your brain strengthens the mental pathways to using, becoming a self-feeding cycle.
 
 You may think that hyper-increased dopamine makes you feel better, but that is misunderstanding how dopamine works. You could compare it to putting 10,000 volts through a machine that works perfectly fine at 240 volts. You don't get enhanced performance, you merely cook the machine.
 
+The dopamine is not what we are truly looking for. What we are looking for is true joy. A sense of happiness without it being in the future. Yet most do not make this realization about what will lead to them being truly satisfied.
+
 **Pangs Definition - `Reminders to watch porn or to masturbate by the brain`**
 
 A fleeting sense of security is all that's needed to get through a rough spot in life, but will your desensatized brain be able to catch that drop of destresser that a non-user's brain is able to use? Dopamine flooding acts like a quick-acting drug, falling quickly and inducing withdrawal pangs. Many illusioned users think these 'pangs' are adverse effects when trying or being forced to stop. However, these thoughts are mental because they are deprived of their 'pleasure'; in reality, these 'pangs' are just the remaining effects of the neural pathways left from porn.
 
-The actual chemical withdrawl from PMO is so subtle that it is mostly undetectable. There is no physical pain, and the only bodily thing you feel is the feeling that something seems missing. This happens because you replaced your time that was previously mundane tasks and porn. However, after leaving PMO, it feels like you have so much more time because once, you may have just filled in your time with PMO rather than your actual interests, making you less engaging. "Boredom" is not a negative, however, and we will talk more about boredom later - put some thought into what you enjoy doing and what your responsibilities are, and you can put your time into those things that truly benefit you as a whole, rather than mundane activities that only reward with dopamine. Find what truly benefits you. (By the way, we will go more into emotions and reactions in the next few chapters).
+The actual chemical withdrawl from PMO is so subtle that it is mostly undetectable. There is no physical pain, and the only bodily thing you feel is the feeling that something seems missing. This happens because you replaced your time that was previously mundane tasks and porn. However, after leaving PMO, it feels like you have so much more time because once, you may have just filled in This dopamine isn't what your looking for. What your looking for is true joy.your time with PMO rather than your actual interests, making you less engaging. "Boredom" is not a negative, however, and we will talk more about boredom later - put some thought into what you enjoy doing and what your responsibilities are, and you can put your time into those things that truly benefit you as a whole, rather than mundane activities that only reward with dopamine. Find what truly benefits you. (By the way, we will go more into emotions and reactions in the next few chapters).
 
 Another important note is the actual nature of why you use PMO repeatedly. You know the feeling when a random car in the street has been beeping all day - or some other minor persistent aggravation - then it suddenly stops, and marvelous feelings of peace and tranquility wash over you? This is not really peace, but just the end of aggravation. PMO is the same as this. People perceive porn and fapping as 'relaxing' and use it when anxious or sad because they believe it will help. However, porn provides no relaxation. It only temporarily removes the nudges to have another session until enough time passes for your body to believe you require dopamine again. You can also use these times of reminder for positive reinforcement, which we will talk about later, but it is basically the thought that you no longer have to follow the nudges for such an empty 'pleasure', which I understand to be not beneficial.
 
@@ -292,7 +310,7 @@ After having a session and waiting for some days, we start having withdrawl 'pan
 ## The Dance Around The Red Line
 Porn users constantly filter what they perceive to be acceptable and not acceptable when they watch the media. They focus on the parts of the content to which they are attracted the most, and they limit their curiosity to what they deem to be too weird or disgusting. Some users only try to watch the 'soft stuff' or limit themselves to a specific genre. They do this because they consciously or subconsciously fear the harmful effects of watching the 'forbidden' content. Even though they may illusion themselves into believing porn to be beneficial, some part of them still partly understands the reality.
 
-If one day, the user could not get their usual type of pornography, and there was only the 'weird' or 'unsafe' genre, do you think they would stop having a session? No! The brain does not care what you fap to; it is the seek-and-search of novelty that fuels this. To begin with, if they only had the choice of 'unsafe' porn, they may be disgusted or unnerved, but only after a few sessions, it would quickly become the standard. What once was a 'forbidden' genre or what once they would have found disgusting is now their new normal, and they feel like they are not satisfied without using that genre. This is just part of the effects of dopamine desensitization - the old content seems mundane compared to more engaging and 'daring' content, fueling the desensitization even more.
+If one day, the user could not get their usual type of pornography, and there was only the 'weird' or 'unsafe' genre, do you think they would stop having a session? No. The brain does not care what you fap to; it is the seek-and-search of novelty that fuels this. To begin with, if they only had the choice of 'unsafe' porn, they may be disgusted or unnerved, but only after a few sessions, it would become the standard. What once was a 'forbidden' genre or what once they would have found disgusting is now their new normal, and they feel like they are not satisfied without using that genre. This is just part of the effects of dopamine desensitization - the old content seems mundane compared to more engaging and 'daring' content, fueling the desensitization even more.
 
 The reason why most users continue using is that although they may know the disadvantages outweigh the advantages, they still have the illusion that there is something in porn that we genuinely benefit from. We may enjoy relieving the withdrawal pangs that PMO creates, but as explained previously, this is just the end of aggravation rather than genuine peace. Surely it would feel so much nicer to skip this whole cycle and not to keep illusioning ourselves!
 
@@ -305,7 +323,7 @@ Users will automatically refrain from using internet porn in their parents’ ho
 
 The actual porn addiction isn’t the main issue, simply acting as a wall in keeping our minds confused over the real problem – brainwashing. Don’t think the bad effects of internet porn are exaggerated however, if anything, they’re sadly understated. Occasionally, rumors circulate that the neural pathways created are there for life, with the right mix of chance and stimulus sending you down the life-ruining water slide again, but these are untrue. Our brains and bodies are miraculous machines, recovering within a matter of weeks. It’s never too late to stop!
 
-A quick browse of online communities will show you people of all ages rebooting their (and their partners) lives. As with anything humans do, some take it to the next level, practicing semen retention, Karezza and through differentiation of the sensory and propagative sides of sex, make their partners happier and more fulfilled than ever before. It may be a consolation to lifelong and heavy users that it’s just as easy for them to stop as casual users. The further it drags you down, the greater the relief. You can find the process of leaving enjoyable in the knowledge that such a posion has been removed from your life.
+A quick browse of online communities will show you people of all ages rebooting their (and their partners) lives. As with anything humans do, some take it to the next level, practicing semen retention, 'Karezza' and through differentiation of the sensory and propagative sides of sex, make their partners happier and more fulfilled than ever before. It may be a consolation to lifelong and heavy users that it’s just as easy for them to stop as casual users. The further it drags you down, the greater the relief. You can find the process of leaving enjoyable in the knowledge that such a posion has been removed from your life.
 
 ## Casual Users
 Casual users are a sad and pitiful example of somebody that most likely wants to leave the addiction. It is just that they are making excuses and are using other defense mechanisms to justify still being a user.
@@ -316,7 +334,7 @@ While on the surface level, being a "casual user" may seem like a good idea, it 
 
 The simple answer for the 'casual user' is to stop completely - freedom from the cycle and liberty from their illusions. However, then they fear failure and fear leaving their crutch and "pleasure". But you have to understand that fear is the emotion that starts a relapse. Therefore, recognize that fear, and understand that these negative thoughts and schemas are the cause of all your suffering. By the way, do not misunderstand observation. Observation is not thinking about the emotion more, but it is a dissasociation from the negative schemas - they are not your true self.
 
-## "Why Am I So Weird"
+## Watching Weird Content
 Frequent porn creates the need to seek and search for more exciting and newer material. This cycle happens continuously throughout the life cycle of a PMO'er, and if they keep crossing this 'red line', the material they will have to use to get off will be a far cry from what they initially used. This is why things such as fetishes exist, because dopamine is released through seeking and searching, and the same clip won't satisfy.
 
 For someone that just discovered PMO who stumbled across these clips, it is common for them to be disgusted. Yet, a few years later, they will require the same clips to have a session.
@@ -337,7 +355,7 @@ For many things in life, we must find the answers within ourselves. Most people 
 
 Within every problem lies the answer. This rule is inherent to every problem and is a universal law. In this way, it is wise to understand how a problem came to arise so it may be removed again. Within the realm of porn addiction and hypersexualization, you must fully understand not only the physical effects but aditionally how users wanting to leave still seem to struggle against best efforts.
 
-Those who fail at becoming free lack a fundamental understanding of their addiction. These people often repeat the same material over and over to no avail - this shows they are approaching the same way, with a lack of understanding of the true problem and the problem *of failing to leave the problem itself.*
+Those who fail at becoming free lack a fundamental understanding of their addiction. These people often repeat the same "nofap" material over and over to no avail - this shows they are approaching the same way, with a lack of understanding of the true problem and the problem *of failing to leave the problem itself.*
 
 The mind works in many complicated ways that are hard to explain through creative and logical works. However, a rule exists in every natural being - to take the path of least resistance. When we see a very long path next to a quick shortcut, we are most likely to take the shortcut. This is inherent to our survival, and it makes sense to be efficient and to perform at an optimal level. This ties into addiction because the path of least resistance is often what we **understand** to be the **most beneficial** path for us. Suppose we do not understand, and we blindly follow steps. In that case, we should not be surprised when an internal argument rises - we must have a deep understanding because otherwise, we will subconsciously believe what is harming us is the best course of action.
 
@@ -359,7 +377,7 @@ This is why PMO'ers participate in time-wasting activities more and struggle/neg
 
 Luckily, dopamine receptors can be resensitized, and people who have fried their brains can still recover. There is no time frame for this recovery. Curiosity questions like "how long will it take" and "have I recovered yet" are unproductive. Every day you will be better than yesterday, and nothing else matters.
 
-## Self-Feeding Cycle Through Negative Emotion
+## Self-Feeding Cycle Through Negative Thought Patterns
 One of the least well-understood concepts among users is just how they get what they call "urges". "Urges" are caused through associations. 
 
 Associations are links to stimuli that create a reminder to ride the neural pathway that has been traveled many times before. This stimulus can be anything, but it usually is suggestive material and negative emotions. Emotions such as fear and anxiety are mentally associated with PMO because of our subconscious beliefs (in delusion) that PMO will solve those feelings. Reality shows that PMO creates those feelings and makes existing ones harder to cope with.
@@ -376,7 +394,7 @@ One pain is knowing that you could be much better than you are now. That you cou
 
 > Suppressing problems will not provide freedom. Only understanding the problem will. Freedom comes from understanding truth. And in being, the truth will lead to freedom.
 
-## What About Stress
+## What About Stress?
 Let’s define stress. In physical terms, stress happens when something wants to be in two places at one time. If I apply pressure to both ends of an iron beam, I stress the beam because one part wants to be north, and the other wants to be south.
 
 **Stress is an inability to decide what’s important.** You want two incompatible things at once. I want to relax, but I need to work. Now I’m under stress.
@@ -385,10 +403,6 @@ When you accept that something’s out of your control, there’s no point in ge
 
 You want to find peace _from_ mind. You aren’t turning off your brain. You can’t suppress the mind or force it to do anything. If I say, “Don’t think of a white elephant,” you’ll think of a white elephant. Instead, you want to develop tools so your mind can be peaceful on its own. Then, stress will go away naturally. 
 
-How do you do that? How do you end up with a more peaceful mind?
-
-**Peace is happiness at rest.**
-
 Here’s a phrase I like: “Peace is happiness at rest; happiness is peace in motion.” Someone who’s peaceful at rest will end up happy when they do an activity. While a happy person sitting idle will be peaceful. The ultimate goal is not _happiness_, even though we use that term a lot. The goal is _peace_.
 
 So the question becomes: How do you get to peace?
@@ -396,6 +410,8 @@ So the question becomes: How do you get to peace?
 The first problem with attaining peace is that no activity will get you there. Fundamentally, peace is inactivity; it’s a sense that everything is fine.
 
 If everything is fine, you’re not doing any physical or mental activity to change it. You’re also not wishing you were doing something to change it because that creates stress. If you want to attract peace, you simply have to aim toward it.
+
+The happiness in leaving PMO should not be somewhere in the future. Peace comes when you have happiness at rest.
 
 **You cannot work toward peace, only understanding.**
 
@@ -542,7 +558,7 @@ As an example, once we truly understand the effects of unhealthy food on our bod
 
 The path towards peace is truth.
 
-Truth-seeking is not an easy business. You essentially have to understand, with deep conviction, things that you’ve been programmed to misunderstand. You have to have enough humility and sincerity to be able to replace old ideas with the new, however painful they may seem.
+Truth-seeking essentially means that you have to understand, with deep conviction, things that you’ve been programmed to misunderstand. You have to have enough humility and sincerity to be able to replace old ideas with the new, however painful they may seem.
 
 In this nature, you must acknowledge not only the truth and nature surrounding PMO but also the truth about your own mind. The truth about the struggle to leave. No rock should be left unturned. Through this, freedom will arise.
 
@@ -625,7 +641,7 @@ Emotions are just part of our nature. Yes, there are "good" and "bad" emotions, 
 > By attributing your suffering to schemas, and negative 
 neurological pathways, instead of your true self, you gain a position of power. If you do this, however, you should still take full ownership of the problems - it is about changing your focus on solutions.
 
-## Use Of Neuroplasticity
+## The Advantage Of Neuroplasticity
 We can use neuroplasticity to our advantage because thinking and believing positive thoughts will strengthen those pathways, which will mean we will think those thoughts more in the future.
 
 Since birth, we have been actively building schemas about the world, others and ourselves. Norms, beliefs, habits, expectations, behavior patterns etc. That becomes our identity. In childhood, we often form beliefs about the world which are harmful and untrue due to our reactions to experiences in that time. The mind is like a computer in that you can input information, but unless it is processed to be valid, you will not know if what you believe in is based on truth or mistruth.
@@ -702,6 +718,8 @@ When no longer tied to the trap of PMO, your sexual energy will stop being as su
 
 Sexual desire is the most powerful of human desires. People who are driven by this desire—in a positive, constructive sense—can “channel” it to develop keenness of imagination, courage, willpower, persistence, and creative ability that are all but unknown at other times.
 
+If you waste this energy on masturbation, you cannot harness this sexual energy, unable to transmute it into creative and physical goals.
+
 The desire for sexual expression is inborn and natural. The desire cannot, and should not be submerged or eliminated. But it should be given an outlet through forms of expression which enrich the body, mind, and spirit of man. If not given this form of outlet, through transmutation, it will seek outlets through purely physical channels. It is easier to direct human nature, than to suppress or attempt to destroy it. This is also why sexual energy should NEVER be feared - because you can harness it to become a greater being.
 
 When harnessed, and redirected along other lines, this motivating force maintains all of its attributes of keenness of imagination, courage, etc., which may be used as powerful creative forces in literature, art, or in any other profession or calling, even including the accumulation of wealth.
@@ -722,7 +740,7 @@ Being in a sincere and positive relationship with a partner is beneficial becaus
 
 Sex energy is the creative energy which can differ a mediocre from a great. There never has been, and never will be a great leader, builder, or artist lacking in this driving force. However, the mere possession of this energy is not sufficient to be useful. The energy must be transmuted from desire for physical contact, into some other form of desire and action, before it will lift one to a higher level.
 
-The emotion of sex is a virtue ONLY when used intelligently, and with discrimination. It may be misused, and often is, to such an extent that it debases, instead of enriches, both body and mind. Intemperance in sex habits is just as detrimental as intemperance in habits of drinking and eating. In this age in which we live, an age which began with the world war, intemperance in habits of sex is common.
+The emotion of sex is a virtue ONLY when used intelligently, and with discrimination. It may be misused, and often is, to such an extent that it debases, instead of enriches, both body and mind. Intemperance in sex habits is just as detrimental as intemperance in habits of drinking and eating. In this age in which we live, intemperance in habits of sex is common.
 
 You can initialize this shift not through steps, but through desire.
 
@@ -737,14 +755,21 @@ If you believe yourself unfortunate, because you have "loved and lost," perish t
 
 Dismiss, also, the thought that love never comes but once. Love may come and go, times without number, but there are no two love experiences which affect one in just the same way. There may be, and there usually is, one love experience which leaves a deeper imprint on the heart than all the others, but all love experiences are beneficial, except to the person who becomes resentful and cynical when love makes its departure.
 
-There should be no disappointment over love, and there would be none if people understood the difference between the emotions of love and sex. The major difference is that love is spiritual, while sex is biological. No experience, which touches the human heart with a spiritual force, can possibly be harmful, except through ignorance, or jealousy.
+There should be no disappointment over love, and there would be none if people understood the difference between the emotions of love and sex. The major difference is that love is spiritual, while sex is biological. No love experience, which touches the human heart with a spiritual force, can possibly be harmful, except through ignorance, or jealousy.
 
-In reaction to breakups, something in your mind may view PMO as a way to cope. However, PMO is void of love. The beauty, the purity, and benefit of a true loving relationship is absent. Understand love in its ways and you have no need to cope with anything. The beauty of love is that it can be cherished and valued while experienced with a loved partner.
+In reaction to breakups, something in your mind may view PMO as a way to cope. However, PMO is void of love. The beauty, the purity, and benefit of a true loving relationship is absent. Understand love in its ways and you have no need to cope with anything. The beauty of love is that it can be cherished and valued while experienced with a loved partner. When a partner is lost, use the sexual energy to transmute into other areas of your life, rather than wasting it on MO.
 
 ## Shifting Energy
 You can take back the energy previously robbed from you - the same energy that flows through every cell in your body and the same energy that communicates with the ether. This energy on its own is nothing but potential. This potential must be harnessed to be helpful. Such energy creates a sense of depth in one's self. On the contrary, those without this aura appear with a lack of presence and depth. Energy is life; lacking it, you have been living less.
 
 You must spend coins for them to be useful, and energy is the same. Coins, in a sense, are just another way of transferring energy, as is everything. This concept is not some abstract idea. This is just the nature of the life.
+
+## What About My Anxiety?
+Everyone has levels of anxiety - It is just you may view yours as some untreatable disease. When you do this, it becomes part of your identity; so you conform hoping someone will pity you.
+
+You have to stop valuing outside opinion; realize it is worth little. Take other ideas into consideration, but make the final decisions. Do things for yourself. For YOU. Fuck the world and what the world thinks. You make the reality you live in. Place value in yourself - and when you abide by promises (to yourself) and you build up self-trust, confidence will come as naturally as bee to the nectar.
+
+You create what corresponds to your identity. So remove negative thinking patterns from your identity, and you won't need to conform to them.
 
 ## Boredom
 When a user becomes free, they are likely to have more time available. This is because #1 They have realized the emptiness and pointlessness of some of the previous activities. #2 They no longer need to browse through the material to try to get dopamine. #3 They develop a greater attraction to smaller but more fulfilling tasks.
@@ -757,12 +782,17 @@ In general, you should not aim to be perfect. Aim to be **better**. That is what
 
 When you fill in your time, it is wise to follow ideas outlined in this book that can also be applied to other goals. Make what you want to do the easiest option, and make what you don't want to do the least attractive option. 
 
+## "Flatlines" & Wet Dreams
+In the process of recovery, it is possible you may experience lowered spans of energy or higher ones. These "lows" people complain about is just the lack of energy they had before they quit. This is because of different components and neurochemicals in the brain, but this should not be feared. Waiting for whatever days you will get X amount of energy is futile. You can experience something greater - the joy and peace of freedom.
+
+Another thing you may notice is you may start to have wet dreams. For those who do not know, they are basically dreams where you...
+
 ## Substitutes
 Sometimes, people who leave PMO are inclined to substitute PMO with other things/bad habits. This only happens due to fear - fear of losing dopamine. However, there is no need to replace dopamine. Let it be rephrased that dopamine does not really affect how much you enjoy things while doing them - dopamine is rather your anticipation towards events. Therefore, you do not need to chase any carnal desires to receive joy - you can enjoy the small things in life if you stop making excuses around them, and naturally, over time, you will feel a natural gravitation toward the smaller parts of life that give it meaning.
 
 There is no need to replace PMO with anything. Freedom requires no substitutes.
 
-## Power (Revisit)
+## Power
 When we identify negative thinking patterns in motion, we can realize that we are actively building up positive neural pathways that increase our ability to control and make less impulsive decisions.
 
 When this is not done, you are creating pain for yourself by not paying attention to your schemas. Act *greater*, as we have the power and the ability to take the wheel of our reactions.
@@ -801,7 +831,78 @@ Of course, you do not want to set up reminders intentionally. This ties into the
 
 There are also some key places/services who consciously promote lewd content which should be avoided. Services such as tiktok, instagram and others have algorithms that purposefully promote this lewd content to keep user attention. On tiktok, it is so blatant, yet not contested by those who it appears to in their "feed". Leaving these platforms is another deal, but it should be considered to remove these apps from your life and to move to better things. These platforms, on top of lewd content promotion, have a whole host of other negatives that they use to keep users, so regulation and removal of these services should be considered. However, you must acknowledge you need a lifestyle change to where they no longer fit in as much (or at all) to any part of your life.
 
-# Chapter 10. Freedom.md
+## Momentum
+You have to start taking life more seriously.
+
+Imagine what changes you would make to your life if you knew you were going to die in a year. You would change habits, do things you always thought you couldn't and you would consciously move towards the things you want to do before your time is up. However, our reality is, we only have one life. No minute can be taken back. Thousands of hours of mediocre gaming can never be replaced. Thousands of hours scrolling through tiktok can never be replaced. And this is not a depressing thought - because the beauty of life is that it blossoms and fades away. However - you must realize that nearly nobody takes life seriously.
+
+In jobs, education and the like, people place a large importance in going through. It has been pushed to them by society, family and friends that it is what they need to do to be happy. Yet, in personal goals, people place a lesser importance on them.
+
+Even though these personal goals will make more of an impact than anybody else's desires, they are done less because we do not place an importance on them.
+
+To make changes in your life, you must start taking it seriously.
+
+# Chapter 10. Moving On.md
+We are told by society to help everybody. To be virtuous, to want to help everybody and to change the world. The truth is, a majority of people with this desire do not realize that it is because they fail to help themselves.
+
+It is easier to look at somebody else's problems and to tell them what to do. You ask people how to get rich, and most can give advice, but they have excuses for why they do not put their own advice into action or why it has not worked.
+
+Virtue to others can be a form of self-neglect. The belief that being selfless results in more general positivity is a fallacy. If you fail to love yourself and to value your own life, you cannot do a good job of supporting others around you.
+
+For your life to move on, you cannot be stuck in the past. You cannot be living a lifestyle where your old bad habits still have a vacant slot which is ready to be filled at the next impulse.
+
+Communities can cause problems (such as "nofap"), especially for PMO. With the existance of a community creates the need for people to return to it. And when people return to it, they can never let go. When they start to get more involved and as anti-PMO communities become part of their life, so does PMO itself.
+
+Most people that try to give you advice are stuck in the past, because they have not moved on.
+
+Community also provides a place where people can mope to. Where they can complain, and ask question on question in an endless cycle of self neglagence. You may have full clarity in the moment when a cue or lewd video occurs. Yet, through all that, if you involve yourself in these communities, you have somewhere to complain about it to, to get sympathy.
+
+No matter how much sympathy and motivation you recieve, if you see it as a way to make relapses less bad, they will play no part in your freedom.
+
+I am not saying movements towards helping people is bad. However, what I see occur is that people (who know all that needs to be known) are only "users" because they are stuck in the past.
+
+As an example, the result of you reading this book may be exciting. It will be life changing, when read with humility. The result of this is you may message people about it. You may start talking to others advising them using this material. Repackaging and reformatting the ideas here.
+
+THIS IS THE SECOND TRAP.
+
+The second trap is leaving PMO itself.
+
+Let go of these communities and groups. Let go of trying to help everybody else. Because to truly move on, you need to prioritize yourself.
+
+## Help Out The Book, And Never Again
+If you have the feeling ppmo would benefit someone, send them a message right now. Do not say "you should read" but say about the effect it had on you.
+
+> Book link: https://ppmo.vercel.app
+
+If you involve yourself in communties where you think this book would be beneficial, mention others or post a link to this book if you want to promote it. If there is somebody you think would benefit, mention them before leaving the communities. Say your goodbyes.
+
+Also if you are the type to make memes, you can create one quickly.
+
+**Get this out of the way now.**
+
+When you have given advice to all the people you want to, return here.
+
+## Letting Go Of "Anti-PMO" Communities
+After this step, remove yourself from all servers, subreddits, communities related to "nofap". If you are in a discord server with channel/s based around it, you can mute the channel/s and then choose the server option to hide muted channels.
+
+The second trap is the attachment to those on the same journey. However, as long as you have that mutual goal with others, you will never be free. You have to make that decision to move ahead and prioritize your own wellbeing.
+
+On another note, when people leave the PMO trap, they tend to announce that they are quitting like they have a loudspeaker. From my experience, those that stay quiet the most, are chilling the most. Keep this in mind.
+
+THIS STEP IS OF A LARGE IMPORTANCE.
+
+People act as some exception to this. However, unless you want to be stuck in the trap due to being stuck in the past, you must look out for yourself. When a community is based around a common goal, and you no longer have that goal, you will subconsciously go back to PMO (to regain the same goal), if you continue to be active within such a community.
+
+This is why the step for promo exists - so then the word can still spread, but then you can move past everything to do with PMO.
+
+## Letting Go Of Cue-Filled Media
+Services/sites like 4chan, tiktok, reddit, meme groups, instagram, and much more are ridden with suggestive cues and lewd content for a reason; to keep users browsing - to users of all ages this is. They promote suggestive content to kids, knowingly getting them hooked for life with no concern for their wellbeing or health.
+
+This is another issue completely, with the abundance and reliance on social media in the modern age. Generally, leaving these things requires a phase out of the need for using them. Do not try to make a huge change in these things based on motivation. Instead, think about what you enjoy more than these media sites, but which is also more beneficial.
+
+As we have also said before, cues are not bad - but surrounding your environment with them will place them on the forefront of your mind. If we do not seek them, cues are opportunities for new neural pathways to be built in our subconscious, reforming our mind into more positive thinking patterns by the day. You can find joy in these moments, because you are free. Security can be found in realizing you have this control, when not giving it up.
+
+# Chapter 11. Freedom.md
 First of all, I highly appreciate your sincerity to read to this point.
 
 If you have used P/MO while reading to this point, it is of no concern. Because through an understanding of the reality of everything encompassing PMO, you will no longer have to believe that PMO is negative. Because the truth leads instead.
@@ -812,19 +913,18 @@ You can look back to such decisions in the future, and can dissect them. Yet, th
 
 At this moment, consider everything you have learnt. Be sincere and true for the following.
 
-Answer these questions:
+Ask yourself these questions:
 
 - Is porn beneficial to me?
 
-- Are sexual activities without sincere love (with a partner beneficial to me?
+- Are sexual activities without sincere love to a partner beneficial to me?
 
-If you think either of these is true, you have misinterpreted some part of the book.
-If you understand both of these questions to be false, then you next shall make this promise to yourself.
+In knowing both of these statements to be false, without lying to yourself, in true sincerity, continue.
 
-Say this in your head, with faith and true sincerity:
+Say this in your head, in faith and true sincerity:
 
-"From this day, I will not allow myself to remain using porn and masturbation because I have understood them to be not beneficial.
- Instead, I will seek out sincere and pure relationships, and I will harness my sexual energy to reach a higher level of fulfilment and success in my life."
+"From this day, I will not allow myself to remain using porn and masturbation because I understand them to be not beneficial.
+ Instead, I will seek sincere and pure relationships, and I will harness my sexual energy to reach a higher level of fulfilment and success in my life."
 
 From now onwards, you no longer have to partake in the endless chase towards temporary freedom. Instead, you can experience what you have always been searching for - true freedom.
 
@@ -832,12 +932,7 @@ You no longer have to fear reminders, because they are just remenants of the pas
 
 Do not wait for benefit, because you can experience it in this moment - you are free.
 
-## Helping Others?
-You no longer need to care about "nofap" and even this boo. We are inclined by society to help everybody else but not ourselves. However, if you want to help the cause, say something like this: "ppmo helped me gain an understanding" if it did so. Do not say, "You should read this guide. It's a perfect how-to".
-
-Curiosity will always work the best for interesting others. You no longer need to consume content around nofap, and no longer have to have endless conversations about it, because there is peace.
-
-## Shift Your Focus
+## Focus Shift
 Do not wait for anything. Focus is important.
 
 Focus on the person you want to become. If your current trajectory does not encourage becoming that person, change your trajectory so that you will become that person.
@@ -846,7 +941,9 @@ There are many other facets in life other than PMO. Are you getting quality slee
 
 Place your time and efforts on this visualization process. Become the person you want to be, through each of your actions.
 
-> Note: Atomic Habits (James Clear) provided me personal insight into the process of habits and the best ways to integrate habits into your life, and it may be useful to you. After breaking bad patterns, the next step is building good ones.
+It is easy to get stuck in the past when we either wait for something to happen or we ignore other things in our life except for PMO. Realistically, there is a lot more to it.
+
+> Note: Atomic Habits (James Clear) provided me personal insight into the process of habits and the best ways to integrate habits into your life, and it may be useful to you. After breaking bad patterns, the next step is building good ones. Btw I find the "Identity", "Cues" and "Attractivness" parts of the book most useful ;)
 
 ## Credits
 Kapil Gupta MD, Peter Turok, Napolean Hill, Naval Ravikant, Jocko Willink, Leif Babin, Shad Helmstetter, James Clear, Fraser Patterson, Jaseh Onfroy, Ross Cornwell, Allen Carr, Kratos
@@ -854,7 +951,7 @@ Kapil Gupta MD, Peter Turok, Napolean Hill, Naval Ravikant, Jocko Willink, Leif 
 There are also others who provided resources for this book. I thank everybody for this.
 
 ## :)
-If this book has helped you in any way, send me an email over to `ppmo.2azip@slmail.me`.
+If this book has helped you in any way, send me a quick email over to `ppmo.2azip@slmail.me`. Do not use discord.
 
 With an inclination, and belief in a desire, you can achieve anything. Go and get it. I Love you all. Btw do not underestimate books.
 

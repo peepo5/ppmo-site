@@ -9,10 +9,10 @@ cd ../../src/markdown/english/
 # Print word counts
 
 
-for i in {0..10}; do
+for i in {0..11}; do
     awk '(FNR==1){print "# Chapter " FILENAME""}1' "$i. "*.md
     printf "\n"
-done > ../../../public/offline/_COMPLETE/md/en-1-main.md
+done > ../../../public/offline/_COMPLETE/md/en-3.0-main.md
 echo Combined to MARKDOWN.
 
 echo ""
@@ -22,7 +22,14 @@ etime=$(echo "$word_count 200" | awk '{printf "%.2f", $1/$2}')
 echo "Estimated reading time: $etime Minutes."
 echo ""
 
-cd ../../../public/offline/_COMPLETE/md
+cd ../
+
+echo "Zipping MARKDOWN files"
+zip -r ../../public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip english
+echo "Zipping finished"
+echo ""
+
+cd ../../public/offline/_COMPLETE/md
 
 for filename in *.md; do
     pandoc $filename -f gfm -o ../pdf/$filename.pdf

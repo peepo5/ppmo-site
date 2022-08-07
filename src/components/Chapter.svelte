@@ -11,6 +11,7 @@
     export let chapters = [];
     export let themes = [];
     export let fonts = [];
+    export let aligns = [];
 
     let completion_disabled = true;
     let mark_done_disabled = false;
@@ -19,11 +20,13 @@
     let boogoodled = false;
     let completed_all = false;
     let mobile_menu_open = false;
+    let temp_completed;
 
     let popup_type = "settings";
 
     let selected_theme;
     let selected_font;
+    let selected_align;
 
     let next_chapter = {};
 
@@ -37,7 +40,9 @@
     	completion_disabled = false;
     	mark_done_disabled = true;
 
-    	completed_chapters[chapter] = true;
+        for(let i = 0; i <= chapter; i++){
+            completed_chapters[i] = true;
+        }
     	localStorage.setItem("completed_chapters", JSON.stringify(completed_chapters));
 
     	completed = true;
@@ -85,6 +90,14 @@
         document.documentElement.classList.add(selected_font.real+"-font");  
     }
 
+    const update_align = () => {
+        localStorage.setItem("align", selected_align.real);
+        for(let i = 0; i < aligns.length; i++) {
+            document.documentElement.classList.remove(aligns[i].real+"-align");
+        }
+        document.documentElement.classList.add(selected_align.real+"-align");  
+    }
+
     const toggle_mobile_menu = () => {
         let side_nav = document.getElementsByClassName("side-nav")[0];
         let chap_header = document.getElementsByClassName("chapter-header")[0];
@@ -106,6 +119,11 @@
 
     const toggle_languages = () => {
         popup_type = "languages";
+        toggle_popup();
+    }
+
+    const toggle_downloads = () => {
+        popup_type = "downloads";
         toggle_popup();
     }
 
@@ -139,6 +157,17 @@
         for(let i = 0; i < fonts.length; i++) {
             if(fonts[i].real == ls_font) {
                 selected_font = fonts[i];
+                break;
+            }
+        }
+    }
+
+    // Update alignment
+    let ls_align = localStorage.getItem("align");
+    if(ls_align != undefined) {
+        for(let i = 0; i < aligns.length; i++) {
+            if(aligns[i].real == ls_align) {
+                selected_align = aligns[i];
                 break;
             }
         }
@@ -180,9 +209,18 @@
                 <br><br>
                 <label for="select">Font</label>
                 <select class="select fontify-pls" bind:value={selected_font} on:change={() => update_font()}>
-                    {#each fonts as t}
-                    <option value={t}>
-                        {t.title}
+                    {#each fonts as f}
+                    <option value={f}>
+                        {f.title}
+                    </option>
+                    {/each}
+                </select>
+                <br><br>
+                <label for="select">Aligment</label>
+                <select class="select" bind:value={selected_align} on:change={() => update_align()}>
+                    {#each aligns as a}
+                    <option value={a}>
+                        {a.title}
                     </option>
                     {/each}
                 </select>
@@ -192,10 +230,23 @@
                     <img src="../images/github-logo.svg" alt="github" class="invert-color" title="Visit project GitHub (source code)" height=30px>
                 </a>
 
-                {:else}
+                {:else if popup_type == "languages"}
                 <h1>Languages</h1>
                 <p>English-only for now.</p>
                 <p>Translations will come at a later date.</p>
+                {:else}
+                <h1>Downloads</h1>
+                <span>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/en-3.0-main.md.pdf" target="_blank" title="Standard Light Background PDF (Portable Document Format) file"><button class="button">PDF</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md.epub" target="_blank" title="Standard EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md-dark.epub" target="_blank" title="Dark Background EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB (Dark)</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/en-3.0-main.md" download target="_blank" title="Merged markdown. Right click when you visit page to download."><button class="button">MD</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip" download target="_blank" title="Zipped markdown files."><button class="button">ZIP</button></a>
+                    <br>
+                    <p>
+                        PDF is better for physical copies. EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.
+                    </p>
+                </span>
                 {/if}
             </div>
         </div>
@@ -205,16 +256,21 @@
         {#if mobile_menu_open}
         <img src="../images/close-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Close menu" alt="close" on:click={() => toggle_mobile_menu()}>
         {/if}
-        <Link to="/" class="link" title="Visit Home">H</Link>
+        <img src="../images/download-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Download the book (download options)" alt="downloads" on:click={() => toggle_downloads()}>
+        <Link to="/" title="Visit Home"><img src="../images/home-outline.svg" class="side-icon linkify link" style="width: 26px; padding-left: 13px;" alt="home"></Link>
         {#each chapters as chap, i}
+            {#if completed_chapters[i] == true}
+            <span class="dot" style="background-color: #38e421"></span>
+            {/if}
             {#if i == chapter}
-            <Link to="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
+                <Link to="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
             {:else}
-            <Link to="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
+                <Link to="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
             {/if}
         {/each}
         <img src="../images/language-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open languages" alt="languages" on:click={() => toggle_languages()}>
-        <img src="../images/settings-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;margin-bottom: 30px;" title="Open settings" alt="settings" on:click={() => toggle_settings()}>
+        <img src="../images/settings-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open settings" alt="settings" on:click={() => toggle_settings()}>
+        <div style="margin-bottom: 30px;"></div>
     </div>
     <br>
     <div class="chapter-header">
@@ -236,15 +292,11 @@
             </div>
         </div>
         {#if !completed_all}
-        <button class="button mark_done_button" disabled={mark_done_disabled} on:click={() => complete_chapter()} title="Mark the current chapter complete">
-            {#if boogoodled == true}
-            Mark Last Chapter Done
+        <button class="button mark_done_button" on:click={() => complete_chapter()} title="Mark the current chapter complete">
+            {#if !completed}
+            Mark Done
             {:else}
-                {#if !completed}
-                Mark Done
-                {:else}
-                Completed
-                {/if}
+            Completed
             {/if}
         </button>
         {:else}

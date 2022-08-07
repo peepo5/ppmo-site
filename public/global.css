@@ -14,12 +14,13 @@
 	--invert-half-hover: 80%;
 	--main-font: open-sans;
 	--para-size: 17px;
+	--markdown-alignment: left;
 }
 
 .light-theme {
-	--main-background: #dbdbdb;
+	--main-background: #e7e7e7;
 	--secondary-background: #c5c5c5;
-	--third-background: #e7e7e7;
+	--third-background: #d8d8d8;
 	--title-color: #111111;
 	--text-color: #080808;
 	--text-bright-color: #000000;
@@ -30,9 +31,9 @@
 }
 
 .light-grid-theme {
-	--main-background: #dbdbdb;
+	--main-background: #e7e7e7;
 	--secondary-background: #c5c5c5;
-	--third-background: #e7e7e7;
+	--third-background: #d8d8d8;
 	--title-color: #111111;
 	--text-color: #080808;
 	--text-bright-color: #000000;
@@ -77,6 +78,14 @@
 	--invert-half-hover: 80%;
 }
 
+.middle-align {
+	--markdown-alignment: center;
+}
+
+.right-align {
+	--markdown-alignment: right;
+}
+
 @font-face {
     font-family: 'monnaco';
     src: url('./fonts/monnaco.otf');
@@ -92,6 +101,21 @@
     src: url('./fonts/open-dyslexic.otf');
 }
 
+@font-face {
+	font-family: 'georgiaa';
+	src: url('./fonts/georgia.ttf');
+}
+
+@font-face {
+	font-family: 'pt-sans';
+	src: url('./fonts/pt-sans.ttf');
+}
+
+@font-face {
+	font-family: 'pt-serif';
+	src: url('./fonts/pt-serif.ttf');
+}
+
 .monnaco-font {
 	--main-font: monnaco;
 	--para-size: 18px;
@@ -100,6 +124,26 @@
 .open-dyslexic-font {
 	--main-font: open-dyslexic;
 	--para-size: 17px;
+}
+
+.georgia-font {
+	--main-font: georgiaa;
+	--para-size: 18px;
+}
+
+.georgia-font {
+	--main-font: georgiaa;
+	--para-size: 18px;
+}
+
+.pt-sans-font {
+	--main-font: pt-sans;
+	--para-size: 18px;
+}
+
+.pt-serif-font {
+	--main-font: pt-serif;
+	--para-size: 18px;
 }
 
 body {
@@ -243,6 +287,7 @@ li {
 	max-width: 750px;
 	padding-left: 0px;
 	padding-right: 6px;
+	text-align: var(--markdown-alignment);
 }
 
 .chapter h1, h2, h3, h4, h5, h6 {
@@ -282,6 +327,16 @@ li {
 	border: 2px solid var(--side-nav-active-border);
 	border-radius: 5px;
 	margin: 3px;
+}
+
+.side-nav .dot {
+	height: 4px;
+  	width: 4px;
+  	border-radius: 50%;
+	margin-left: 13px;
+	margin-top: 10px;
+  	display: inline-block;
+	position: absolute;
 }
 
 .settings-container {

@@ -18,11 +18,24 @@
 	import C10 from "../markdown/english/10. Moving On.md";
 	import C11 from "../markdown/english/11. Freedom.md";
 
+	// If this changes, book progress is removed
+	const major_vers = "3.0-main";
+	const formatted_vers = "ppmo version 3.0"
+	const exist_vers = localStorage.getItem("ppmo_version");
+
+	if (exist_vers != undefined) {
+		if (exist_vers != major_vers) {
+			localStorage.removeItem("completed_chapters");
+		}
+	}
+
+	localStorage.setItem("ppmo_version", major_vers);
+
 	let chapters = [
 		{
 			name: "Prefix",
 			title: "New Beginnings",
-			subtitle: "About the book.",
+			
 			md: C0
 		},
 		{
@@ -64,7 +77,7 @@
 		{
 			name: "Brainwashing",
 			title: "Brainwashing",
-			subtitle: "Diving into the untruths.",
+			subtitle: "Going over the untruths.",
 			md: C7
 		},
 		{
@@ -92,18 +105,6 @@
 			md: C11
 		},
 	];
-
-	// If this changes, book progress is removed
-	const major_vers = "2-main";
-	const exist_vers = localStorage.getItem("ppmo_version");
-
-	if (exist_vers != undefined) {
-		if (exist_vers != major_vers) {
-			localStorage.removeItem("completed_chapters");
-		}
-	}
-
-	localStorage.setItem("ppmo_version", major_vers);
 
 	// Theme detection and change
 	let themes = [
@@ -153,10 +154,37 @@
             real: "monnaco"
         },
 		{
+			title: "PT Sans",
+			real: "pt-sans"
+		},
+		{
+			title: "PT Serif",
+			real: "pt-serif"
+		},
+		{
+			title: "Georgia",
+			real: "georgia"
+		},
+		{
             title: "Open Dyslexic",
             real: "open-dyslexic"
         },
     ];
+
+	let aligns = [
+        {
+            title: "Left",
+			real: "left"
+        },
+		{
+            title: "Middle",
+			real: "middle"
+        },
+		{
+            title: "Right",
+			real: "right"
+        }
+    ]
 
 	let theme = localStorage.getItem("theme");
 	if (theme != undefined) {
@@ -166,6 +194,16 @@
 			document.documentElement.classList.remove(theme+"-theme");
 		}
 	}
+
+	let align = localStorage.getItem("align");
+	if (align != undefined) {
+		document.documentElement.classList.add(align+"-align");
+	} else {
+		for(let i = 0; i < aligns.length; i++) {
+			document.documentElement.classList.remove(align+"-align");
+		}
+	}
+
 </script>
 
 <Router primary={false}>
@@ -181,6 +219,7 @@
 				themes={themes}
 				chapters={chapters}
 				fonts={fonts}
+				aligns={aligns}
 			/>
 		</Route>
 	{/each}
