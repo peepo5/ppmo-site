@@ -1,5 +1,4 @@
 <script>
-    import { Link } from "svelte-navigator";
     import Typewriter from "svelte-typewriter";
     import Markdown from "./Markdown.svelte";
 
@@ -274,15 +273,15 @@
         <img src="../images/close-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Close menu" alt="close" on:click={() => toggle_mobile_menu()}>
         {/if}
         <img src="../images/download-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Download the book (download options)" alt="downloads" on:click={() => toggle_downloads()}>
-        <Link to="/" title="Visit Home"><img src="../images/home-outline.svg" class="side-icon linkify link" style="width: 26px; padding-left: 13px;" alt="home"></Link>
+        <a href="/" title="Visit Home"><img src="../images/home-outline.svg" class="side-icon linkify link" style="width: 26px; padding-left: 13px;" alt="home"></a>
         {#each chapters as chap, i}
             {#if completed_chapters[i] == true}
             <span class="dot" style="background-color: #38e421"></span>
             {/if}
             {#if i == chapter}
-                <Link to="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
+                <a href="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
             {:else}
-                <Link to="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</Link>
+                <a href="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
             {/if}
         {/each}
         <img src="../images/language-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open languages" alt="languages" on:click={() => toggle_languages()}>
