@@ -327,16 +327,16 @@
             Reset All
         </button>
         {#if chapter == chapters.length-1}
-        <Link to="/hs_6d61796265003733203639203664203666">
+        <a href="/hs_6d61796265003733203639203664203666">
             <button class="button" title="...">Hidden Section</button>
-        </Link>
+        </a>
         {/if}
 
         {/if}
         {#if chapter != chapters.length-1}
-            <Link to="/chapter/{chapter+1}" class="link" on:click={() => window.scrollTo(0, 0)} title="Visit Chapter {chapter+1} - {next_chapter.title}">
+            <a href="/chapter/{chapter+1}" class="link" on:click={() => window.scrollTo(0, 0)} title="Visit Chapter {chapter+1} - {next_chapter.title}">
                 <button class="button completion-button" disabled={completion_disabled}>Next Chapter</button>
-            </Link>
+            </a>
         {/if}
         <br><br><br><br><br>
     </div>
