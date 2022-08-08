@@ -18,6 +18,16 @@
 	// End of import
 	import { Link } from "svelte-navigator";
 
+	let ls_id = localStorage.getItem("usr_id");
+		if(ls_id == undefined) {
+			let date = Date.now()
+			localStorage.setItem("usr_id", date);
+			ls_id = date;
+		}
+		
+	mixpanel.alias(ls_id);
+	mixpanel.identify(ls_id);
+
 	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true, ignore_dnt: true}); 
 
 	function send_to_mix(text) {
