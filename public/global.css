@@ -176,6 +176,10 @@ a {
 	text-decoration: none;
 }
 
+div {
+	scrollbar-width: thin;
+}
+
 a:hover {
 	text-decoration: underline;
 }
@@ -209,12 +213,12 @@ strong {
 }
 
 .select {
-    color: var(--text-bright-color);
+    
     border: 0px none;
     height: 30px;
     border-radius: 5px;
     font-size: 18px;
-    background-color: var(--interactive);
+    
     min-width: 150px;
     padding-bottom: 2px;
     padding-left: 10px;
@@ -222,7 +226,7 @@ strong {
 }
 
 .select:hover {
-    outline: 2px solid var(--text-color);
+    outline: 1px solid var(--red-color);
 }
 
 .no-margin {
@@ -294,8 +298,8 @@ li {
 .chapter {
 	font-family: var(--main-font);
 	max-width: 750px;
-	padding-left: 0px;
-	padding-right: 6px;
+	padding-left: 4px;
+	padding-right: 5px;
 	text-align: var(--markdown-alignment);
 }
 
@@ -315,9 +319,22 @@ li {
 	top: 0;
 	left: 0;
 	background-color: var(--third-background);
-	overflow-x: hidden;
 	padding-top: 20px;
+	overflow-x:hidden;
 }
+
+::-webkit-scrollbar {
+	width: 4px;
+}
+::-webkit-scrollbar-track {
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	background-color: rgba(155, 155, 155, 0.5);
+	border-radius: 20px;
+	border: transparent;
+}
+  
 
 .side-nav .link {
 	padding: 6px 8px 6px 9px;
@@ -417,7 +434,7 @@ li {
 
 /* Mobile friendly stuff */
 
-@media only screen and ((max-width: 600px) or (max-height: 400px)) {
+@media only screen and ((max-width: 570px) or (max-height: 400px)) {
 	.settings-container {
 		left: 0;
 		top: 0;
