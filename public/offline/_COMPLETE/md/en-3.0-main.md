@@ -151,7 +151,7 @@ When the dopamine receptors start to become regulated again, it makes activities
 
 A frequent skydiver can feel anhedonia (the inability to experience pleasure) for the rest of their life. This is the same for a porn user or a cocaine user because these are all high dopamine activities.
 
-Thus, the pursuit of intense pleasure (hedonism) ironically leads to its loss (anhedonia). Your brain is desensitized to life's natural highs – talking, smiling, learning, working, nature, exercise, etc., don’t feel “high” like they should.
+Thus, the pursuit of intense pleasure (hedonism) ironically leads to its loss (anhedonia). Your brain is desensitized to life's natural highs – talking, smiling, learning, working, nature, exercise, etc, don’t feel “high” like they should.
 
 It’s like your life is in grayscale instead of color; unfortunately, you don’t realize it - this is why quitting feels amazing after any potential withdrawls. Your brain’s dopamine receptors will heal and reverse their desensitization.
 
@@ -205,7 +205,7 @@ On the other hand, there are addictions. Addictions present themselves as habits
 You can cut down on how much you use habits, but not how much you use PMO - otherwise, you are effectively edging by taking breaks and fueling your addiction further without knowing.
 
 **Common misconception**
-There is a common misconception regarding your part in still being a user. While you are not responsible for getting into the trap, you need to take accountability for continuing to decide to remain in the trap. You may try to push off this responsibility to to the ones that introduced you to the trap, but take full ownership, to in turn, take full control.
+There is a common misconception regarding your part in still being a user. While you are not responsible for getting into the trap, you need to take accountability for continuing to decide to remain in the trap. You may try to push off this responsibility to the ones that introduced you to the trap, but take full ownership, to in turn, take full control.
 
 Also, do not make the excuse of calling yourself an *addict*. Even if you are addicted, calling yourself an *addict* creates a subconscious belief that it cannot be changed because you are inherently an "addict". Do not make the mistake of trying to diagnose yourself by avoiding responsibility. You can change being addicted, but calling yourself an addict is limiting. Take accountability and take control.
 
@@ -416,7 +416,7 @@ The happiness in leaving PMO should not be somewhere in the future. Peace comes 
 **You cannot work toward peace, only understanding.**
 
 ## The Importance Of Neuroplasticity
-Many of us hold delisions impeded by society that we have picked up over time. This is to be expected - we all pick up so much information in the conscious and subconscious every day. Especially in this age of information, we have a stream of beliefs and desires that come at rates hard to process.
+Many of us hold delusions impeded by society that we have picked up over time. This is to be expected - we all pick up so much information in the conscious and subconscious every day. Especially in this age of information, we have a stream of beliefs and desires that come at rates hard to process.
 
 Due to all this information coming in so fast, our brains have learned to pick up this information but not look into it any deeper than surface level. This is where believing delusions come from. Many people hold radical beliefs, yet when questioned for authenticity, they shut down because they did not even process these ideas themselves.
 
@@ -636,7 +636,7 @@ We should understand that negative actions being seen as good is not what we rea
 
 Some believe that emotions are destructive; they believe they should stop being emotional and that people (or women) are weak for being more emotional. This idea is toxic because it is trying to deny a part of human nature, and also, the person preaching this message is lying - their emotions still control them.
 
-Emotions are just part of our nature. Yes, there are "good" and "bad" emotions, but emotions as a whole are neutral. They are a part of our human nature, which we should not demoize. We should not do this because trying to oppose part of our inherent nature is often unproductive. Instead of opposing emotions, we should instead think about our reactions to them. Having such a negative view of emotions also leads to fear. They fear that having some emotion is a bad sign or some sign of weakness; however, this is not the case. It is easy to fear emotions, but it is freeing to take control of the wheel and change your reaction to them.
+Emotions are just part of our nature. Yes, there are "good" and "bad" emotions, but emotions as a whole are neutral. They are a part of our human nature, which we should not demonize. We should not do this because trying to oppose part of our inherent nature is often unproductive. Instead of opposing emotions, we should instead think about our reactions to them. Having such a negative view of emotions also leads to fear. They fear that having some emotion is a bad sign or some sign of weakness; however, this is not the case. It is easy to fear emotions, but it is freeing to take control of the wheel and change your reaction to them.
 
 > By attributing your suffering to schemas, and negative 
 neurological pathways, instead of your true self, you gain a position of power. If you do this, however, you should still take full ownership of the problems - it is about changing your focus on solutions.
@@ -785,7 +785,11 @@ When you fill in your time, it is wise to follow ideas outlined in this book tha
 ## "Flatlines" & Wet Dreams
 In the process of recovery, it is possible you may experience lowered spans of energy or higher ones. These "lows" people complain about is just the lack of energy they had before they quit. This is because of different components and neurochemicals in the brain, but this should not be feared. Waiting for whatever days you will get X amount of energy is futile. You can experience something greater - the joy and peace of freedom.
 
-Another thing you may notice is you may start to have wet dreams. For those who do not know, they are basically dreams where you...
+Another thing you may notice is you may start to have wet dreams. For those who do not know, they are basically dreams (often nonsensical) of a sexual nature, that naturally occur when not involved in sexual activites. They exist to clear your body out of dead sperm, to increase your fertility. The part about these dreams people find annoying however, is that the dreams they have bring back emotions that they used to have when they were in the trap.
+
+The thing is, you should not have a negative outlook on these wet dreams. Previously, you were lowering your fertility rate through self-destruction; wet dreams are just a result of natural hormone activity. You should not build up a negative view on these dreams, and you should not look forward for them either (as it just acts as a substitute). Instead, when you have these dreams, understand them to be neutral. If you do not like the dream, you have the freedom within it to change what is going on (this might be on the edge of lucid dreaming).
+
+It is wise not to view wet dreams negatively or positively. They are just a minor inconvenience that occurs naturally to keep your body in check.
 
 ## Substitutes
 Sometimes, people who leave PMO are inclined to substitute PMO with other things/bad habits. This only happens due to fear - fear of losing dopamine. However, there is no need to replace dopamine. Let it be rephrased that dopamine does not really affect how much you enjoy things while doing them - dopamine is rather your anticipation towards events. Therefore, you do not need to chase any carnal desires to receive joy - you can enjoy the small things in life if you stop making excuses around them, and naturally, over time, you will feel a natural gravitation toward the smaller parts of life that give it meaning.
