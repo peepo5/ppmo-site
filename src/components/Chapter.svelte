@@ -11,6 +11,14 @@
     export let themes = [];
     export let fonts = [];
     export let aligns = [];
+    export let languages = {};
+    // Language naming information
+    export let language_info = {};
+    // Language Shortcode
+    let lshort = language_info.short_name;
+    // Translation Index
+    export let translation_index = {};
+    let ti = translation_index;
 
     let completion_disabled = true;
     let mark_done_disabled = false;
@@ -26,6 +34,7 @@
     let selected_theme;
     let selected_font;
     let selected_align;
+    let selected_language = language_info.name;
 
     let next_chapter = {};
 
@@ -97,6 +106,11 @@
         document.documentElement.classList.add(selected_align.real+"-align");  
     }
 
+    const update_language = () => {
+        localStorage.setItem("active_language", selected_language);
+        location.reload();
+    }
+
     const toggle_mobile_menu = () => {
         let side_nav = document.getElementsByClassName("side-nav")[0];
         let chap_header = document.getElementsByClassName("chapter-header")[0];
@@ -108,7 +122,6 @@
             chap_header.style.marginLeft = "0px";
         }
         mobile_menu_open = !mobile_menu_open;
-        console.log(mobile_menu_open)
     }
 
     const toggle_settings = () => {
@@ -184,6 +197,7 @@
 	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true, ignore_dnt: true});
     mixpanel.identify(ls_id);
     mixpanel.track(`Chapter ${chapter}`);
+    mixpanel.track(`Language ${language_info.title_name}`);
 
 	function send_to_mix(text) {
 		mixpanel.track(text);
@@ -193,12 +207,12 @@
 
 <main>
     <header>
-        <title>Chapter {chapter} - {title} (ppmo)</title>
+        <title>{ti["chapter"][lshort]} {chapter} - {title} (ppmo)</title>
     </header>
 
     {#if !mobile_menu_open}
     <div class="menu-container" on:click={() => toggle_mobile_menu()}>
-        <div class="linkify menu-inner">Menu</div>
+        <div class="linkify menu-inner">{ti["menu"][lshort]}</div>
     </div>
     {/if}
 
@@ -209,12 +223,12 @@
         <div class="settings-container">
             <div class="settings">
                 <div on:click={() => toggle_popup()}>
-                    <img src="../images/close-outline.svg" class="close-settings linkify invert-color" alt="close" title="Close (duh?)">
+                    <img src="../images/close-outline.svg" class="close-settings linkify invert-color" alt="{ti["trol"][lshort]}" title="{ti["trol"][lshort]}">
                 </div>
                 {#if popup_type == "settings"}
 
-                <h1>Settings</h1>
-                <label for="select">Theme</label>
+                <h1>{ti["settings"][lshort]}</h1>
+                <label for="select">{ti["theme"][lshort]}</label>
                 <select class="select" bind:value={selected_theme} on:change={() => update_theme()}>
                     {#each themes as t}
                     <option value={t}>
@@ -223,7 +237,7 @@
                     {/each}
                 </select>
                 <br><br>
-                <label for="select">Font</label>
+                <label for="select">{ti["font"][lshort]}</label>
                 <select class="select fontify-pls" bind:value={selected_font} on:change={() => update_font()}>
                     {#each fonts as f}
                     <option value={f}>
@@ -232,7 +246,7 @@
                     {/each}
                 </select>
                 <br><br>
-                <label for="select">Aligment</label>
+                <label for="select">{ti["alignment"][lshort]}</label>
                 <select class="select" bind:value={selected_align} on:change={() => update_align()}>
                     {#each aligns as a}
                     <option value={a}>
@@ -243,24 +257,31 @@
 
                 <br><br>
                 <a href="https://github.com/free-synd/ppmo-site" target="_blank">
-                    <img src="../images/github-logo.svg" alt="github" class="invert-color" title="Visit project GitHub (source code)" height=30px>
+                    <img src="../images/github-logo.svg" alt="github" class="invert-color" title="{ti["gh"][lshort]}" height=30px>
                 </a>
 
                 {:else if popup_type == "languages"}
-                <h1>Languages</h1>
-                <p>English-only for now.</p>
-                <p>Translations will come at a later date.</p>
+                <h1>{ti["languages"][lshort]}</h1>
+                <label for="select">{ti["language"][lshort]}</label>
+                <select class="select" bind:value={selected_language} on:change={() => update_language()}>
+                    {#each Object.entries(languages) as l}
+                    <option value={l[0]}>
+                        {l[1].native_title_name} ({l[1].title_name})
+                    </option>
+                    {/each}
+                </select>
+                <p>{ti["choose-your-language"][lshort]}</p>
                 {:else}
-                <h1>Downloads</h1>
+                <h1>{ti["downloads"][lshort]}</h1>
                 <span>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/en-3.0-main.md.pdf" target="_blank" title="Standard Light Background PDF (Portable Document Format) file"><button class="button">PDF</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md.epub" target="_blank" title="Standard EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md-dark.epub" target="_blank" title="Dark Background EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB (Dark)</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/en-3.0-main.md" download target="_blank" title="Merged markdown. Right click when you visit page to download."><button class="button">MD</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip" download target="_blank" title="Zipped markdown files."><button class="button">ZIP</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/{lshort}-3.0-main.md.pdf" target="_blank" title="Standard Light Background PDF (Portable Document Format) file"><button class="button">PDF</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md.epub" target="_blank" title="Standard EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md-dark.epub" target="_blank" title="Dark Background EPUB (Electronic Publication) file. EPUB is good for mobile devices."><button class="button">EPUB (Dark)</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/{lshort}-3.0-main.md" download target="_blank" title="Merged markdown. Right click when you visit page to download."><button class="button">MD</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/{lshort}-3.0-main-markdown.zip" download target="_blank" title="Zipped markdown files."><button class="button">ZIP</button></a>
                     <br>
                     <p>
-                        PDF is better for physical copies. EPUB is best for mobile devices, and ZIP/MD is best for copying text from the book.
+                        {ti["doc-info"][lshort]}
                     </p>
                 </span>
                 {/if}
@@ -270,34 +291,34 @@
 
     <div class="side-nav">
         {#if mobile_menu_open}
-        <img src="../images/close-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Close menu" alt="close" on:click={() => toggle_mobile_menu()}>
+        <img src="../images/close-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="{ti["close-menu"][lshort]}" alt="{ti["close-menu"][lshort]}" on:click={() => toggle_mobile_menu()}>
         {/if}
-        <img src="../images/download-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Download the book (download options)" alt="downloads" on:click={() => toggle_downloads()}>
-        <a href="/" title="Visit Home"><img src="../images/home-outline.svg" class="side-icon linkify link" style="width: 26px; padding-left: 13px;" alt="home"></a>
+        <img src="../images/download-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="{ti["download-the-book"][lshort]}" alt="{ti["downloads"][lshort]}" on:click={() => toggle_downloads()}>
+        <a href="/" title="{ti["visit-home"][lshort]}"><img src="../images/home-outline.svg" class="side-icon linkify link" style="width: 26px; padding-left: 13px;" alt="home"></a>
         {#each chapters as chap, i}
             {#if completed_chapters[i] == true}
             <span class="dot" style="background-color: #38e421"></span>
             {/if}
             {#if i == chapter}
-                <a href="/chapter/{i}" class="link active-link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
+                <a href="/chapter/{i}" class="link active-link" title="{ti["visit-chapter"][lshort]} {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
             {:else}
-                <a href="/chapter/{i}" class="link" title="Visit Chapter {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
+                <a href="/chapter/{i}" class="link" title="{ti["visit-chapter"][lshort]} {i} - {chap.title}" on:click={() => window.scrollTo(0, 0)}>{i}</a>
             {/if}
         {/each}
-        <img src="../images/language-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open languages" alt="languages" on:click={() => toggle_languages()}>
-        <img src="../images/settings-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="Open settings" alt="settings" on:click={() => toggle_settings()}>
+        <img src="../images/language-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="{ti["open-languages"][lshort]}" alt="{ti["languages"][lshort]}" on:click={() => toggle_languages()}>
+        <img src="../images/settings-outline.svg" class="side-icon linkify link" style="width: 30px; padding-left: 11px;" title="{ti["open-settings"][lshort]}" alt="{ti["settings"][lshort]}" on:click={() => toggle_settings()}>
         <div style="margin-bottom: 30px;"></div>
     </div>
     <br>
     <div class="chapter-header">
-        <h3 class="light-up-underline" style="margin-bottom:0px;">Chapter {chapter}</h3>
+        <h3 class="light-up-underline" style="margin-bottom:0px;">{ti["chapter"][lshort]} {chapter}</h3>
         <h1 class="light-up-underline" style="margin-top:2px;">{title}</h1>
         {#if subtitle != ""}
             <Typewriter interval={60} cursor={false}><h4 class="no-margin" style="font-size: 20px;padding:5px;"><i>{subtitle}</i></h4></Typewriter>
         {/if}
 
         {#if chapter == 0}
-        <audio controls style="margin-top:12px" title="Some fitting audio. From Lil Darkie - Dreaming.">
+        <audio controls style="margin-top:12px" title="{ti["audio-info"][lshort]}">
             <source src="../intro.mp3" type="audio/mpeg">
         </audio> 
         {/if}
@@ -310,33 +331,33 @@
         {#if chapter == chapters.length-1}
         <br>
         <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank">
-            <button class="button" title="Donate to help the ppmo project" style="background-color:#314879">Donate via opencollective</button>
+            <button class="button" title="{ti["donate-info"][lshort]}" style="background-color:#314879">{ti["donate-opn"][lshort]}</button>
         </a>
         <br><br>
 
         {/if}
         {#if !completed_all}
-        <button class="button mark_done_button" on:click={() => complete_chapter()} title="Mark the current chapter complete">
+        <button class="button mark_done_button" on:click={() => complete_chapter()} title="{ti["mark-info"][lshort]}">
             {#if !completed}
-            Mark Done
+            {ti["mark-done"][lshort]}
             {:else}
-            Completed
+            {ti["completed"][lshort]}
             {/if}
         </button>
         {:else}
-        <button class="button" style="background-color: black; border:none;" on:click={() => reset_completed()} title="Resets all completed chapters">
-            Reset All
+        <button class="button" style="background-color: black; border:none;" on:click={() => reset_completed()} title="{ti["resets"][lshort]}">
+            {ti["reset-all"][lshort]}
         </button>
         {#if chapter == chapters.length-1}
         <a href="/hs_6d61796265003733203639203664203666">
-            <button class="button" title="...">Hidden Section</button>
+            <button class="button" title="...">{ti["hidden-section"][lshort]}</button>
         </a>
         {/if}
 
         {/if}
         {#if chapter != chapters.length-1}
-            <a href="/chapter/{chapter+1}" class="link" on:click={() => window.scrollTo(0, 0)} title="Visit Chapter {chapter+1} - {next_chapter.title}">
-                <button class="button completion-button" disabled={completion_disabled}>Next Chapter</button>
+            <a href="/chapter/{chapter+1}" class="link" on:click={() => window.scrollTo(0, 0)} title="{ti["visit-chapter"][lshort]} {chapter+1} - {next_chapter.title}">
+                <button class="button completion-button" disabled={completion_disabled}>{ti["next-chapter"][lshort]}</button>
             </a>
         {/if}
         <br><br><br><br><br>

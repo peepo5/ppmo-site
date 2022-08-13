@@ -432,6 +432,55 @@ li {
 	right: 10px;
 }
 
+.mini-flag {
+	margin: 0px;
+	height: 15px;
+	border-radius: 2px; 
+	animation: rainbow 7s linear;
+	animation-iteration-count: infinite;
+	margin-left: 4px;
+	margin-right: 4px;
+}
+
+@keyframes rainbow{
+	100%,0%{
+		border: 1px solid rgb(255,0,0);
+	}
+	8%{
+		border: 1px solid rgb(255,127,0);
+	}
+	16%{
+		border: 1px solid rgb(255,255,0);
+	}
+	25%{
+		border: 1px solid rgb(127,255,0);
+	}
+	33%{
+		border: 1px solid rgb(0,255,0);
+	}
+	41%{
+		border: 1px solid rgb(0,255,127);
+	}
+	50%{
+		border: 1px solid rgb(0,255,255);
+	}
+	58%{
+		border: 1px solid rgb(0,127,255);
+	}
+	66%{
+		border: 1px solid rgb(0,0,255);
+	}
+	75%{
+		border: 1px solid rgb(127,0,255);
+	}
+	83%{
+		border: 1px solid rgb(255,0,255);
+	}
+	91%{
+		border: 1px solid rgb(255,0,127);
+	}
+}
+
 /* Mobile friendly stuff */
 
 @media only screen and ((max-width: 570px) or (max-height: 400px)) {

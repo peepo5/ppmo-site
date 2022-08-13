@@ -2,15 +2,25 @@
 	<title>Purge PMO</title>
 	
 	<img src="images/ppmo_circle_web.png" class="circle-light-up" height=200px alt="logo banner">
-	<h1 class="light-up-underline" title="ppmo stands for purge pmo.">ppmo</h1>
-	<p style="margin-top: 3px;">Freedom comes from understanding.<br> A book to become free from the porn and masturbation trap.</p>
+	<h1 class="light-up-underline" title="{ti["pmo-name-info"][lshort]}">ppmo</h1>
 
-	<a href="/chapter/0"><button class="button">Read the book</button></a><br><br>
-	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" title="Print on demand. No profit made on this. Use code THANKYOU20.">Physical Copy</a> |
-	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" title="Donate to help out the project">Donate</a>
+	<p style="margin-top: 3px;">{ti["description-p1"][lshort]}<br> {ti["description-p2"][lshort]} <br><br><b>Now in French!</b></p>
+	<a href="/chapter/0"><button class="button">{ti["read-the-book"][lshort]}</button></a><br><br>
+	
+	{#each ["us", "fr"] as lang}
+	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" title="{ti["lang-disclaim"][lshort]}">
+	{/each}
+	<br><br>
+	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
+	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a>
 </main>
 
 <script>
+	export let translation_index = {};
+	let ti = translation_index;
+	export let language_info = {};
+	let lshort = language_info.short_name;
+
 	let ls_id = localStorage.getItem("usr_id");
 		if(ls_id == undefined) {
 			let date = Date.now()
@@ -24,4 +34,5 @@
 	function send_to_mix(text) {
 		mixpanel.track(text);
 	}
+
 </script>
