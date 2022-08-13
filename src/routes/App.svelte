@@ -388,7 +388,7 @@
 		},
 		"description-p2": {
 			en: "A book to become free from the porn and masturbation trap.",
-			fr: "A Livre pour se libérer du piège du porno et de la masturbation."
+			fr: "Un Livre pour se libérer du piège du porno et de la masturbation."
 		},
 		"read-the-book": {
 			en: "Read the book",
@@ -420,7 +420,7 @@
 		},
 		"mark-done": {
 			en: "Mark Done",
-			fr: "Marque faite"
+			fr: "Marquer comme lu"
 		},
 		"next-chapter": {
 			en: "Next Chapter",
