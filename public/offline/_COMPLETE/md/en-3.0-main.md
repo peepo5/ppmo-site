@@ -153,7 +153,7 @@ A frequent skydiver can feel anhedonia (the inability to experience pleasure) fo
 
 Thus, the pursuit of intense pleasure (hedonism) ironically leads to its loss (anhedonia). Your brain is desensitized to life's natural highs – talking, smiling, learning, working, nature, exercise, etc, don’t feel “high” like they should.
 
-It’s like your life is in grayscale instead of color; unfortunately, you don’t realize it - this is why quitting feels amazing after any potential withdrawls. Your brain’s dopamine receptors will heal and reverse their desensitization.
+It’s like your life is in grayscale instead of color; unfortunately, you don’t realize it - this is why quitting feels can feel amazing. Your brain’s dopamine receptors will heal and reverse their desensitization.
 
 Increased brain fog is another effect that porn creates. Porn lowers brain chemicals (acetylcholine) vital in cognitive functioning. This can make active users feel like they are less able to function actively than before (however, not many people realize this because this happens slowly). In my personal experience, it felt like being fully awake but half asleep. From personal experience, it makes you as interesting as a blank piece of paper.
 
@@ -950,7 +950,7 @@ It is easy to get stuck in the past when we either wait for something to happen 
 > Note: Atomic Habits (James Clear) provided me personal insight into the process of habits and the best ways to integrate habits into your life, and it may be useful to you. After breaking bad patterns, the next step is building good ones. Btw I find the "Identity", "Cues" and "Attractivness" parts of the book most useful ;)
 
 ## Credits
-Kapil Gupta MD, Peter Turok, Napolean Hill, Naval Ravikant, Jocko Willink, Leif Babin, Shad Helmstetter, James Clear, Fraser Patterson, Jaseh Onfroy, Ross Cornwell, Allen Carr, Kratos
+Kapil Gupta MD, Peter Turok, Napolean Hill, Naval Ravikant, Jocko Willink, Leif Babin, Shad Helmstetter, James Clear, Fraser Patterson, Jaseh Onfroy, Ross Cornwell, Allen Carr, Kratos, Tiandis
 
 There are also others who provided resources for this book. I thank everybody for this.
 
