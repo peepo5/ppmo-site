@@ -7,4 +7,6 @@
 
 .obsidian
 
-.mp3
+public/*.mp3
+
+public/*.flp

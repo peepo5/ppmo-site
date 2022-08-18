@@ -121,7 +121,7 @@
 		{
 			name: "Transmutation",
 			title: "Transmutation",
-			subtitle: "Closing notes.",
+			subtitle: "Going over important topics.",
 			md: C9_EN
 		},
 		{
