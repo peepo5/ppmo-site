@@ -1,7 +1,7 @@
 <main>
 	<title>Purge PMO</title>
 	
-	<img src="images/ppmo_circle_web.png" class="circle-light-up" height=200px alt="logo banner">
+	<img src="images/ppmo_circle_web.png" class="circle-light-up" title="{ti["pmo-name-info"][lshort]}" height=200px alt="logo banner">
 	<h1 class="light-up-underline" title="{ti["pmo-name-info"][lshort]}">ppmo</h1>
 
 	<p style="margin-top: 3px;">{ti["description-p1"][lshort]}<br> {ti["description-p2"][lshort]} <br><br><b>Now in French!</b></p>
