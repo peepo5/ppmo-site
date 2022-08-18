@@ -12,6 +12,7 @@
 	{/each}
 	<br><br>
 	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
+	<a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> | 
 	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a>
 </main>
 

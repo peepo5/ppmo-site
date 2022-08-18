@@ -493,6 +493,14 @@
 		"lang-disclaim": {
 			en: "Visit translations tab in the book to change language.",
 			fr: "Visitez l'onglet traductions dans le livre pour changer de langue."
+		},
+		"audiobook": {
+			en: "Audiobook",
+			fr: "Livre audio"
+		},
+		"audiobook-info": {
+			en: "Listen to the full audiobook",
+			fr: "Écouter le livre audio complet"
 		}
 	};
 
