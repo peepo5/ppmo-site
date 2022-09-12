@@ -235,75 +235,75 @@
 
 	let chapters_ru = [
 		{
-			name: "Prefix",
-			title: "New Beginnings.",
+			name: "Префикс",
+			title: "Новые начинания.",
 			md: C0_RU
 		},
 		{
-			name: "Introduction",
-			title: "Introduction",
+			name: "Вступление",
+			title: "Вступление",
 			subtitle: "Welcome to the book.",
 			md: C1_RU
 		},
 		{
-			name: "Benefits",
-			title: "Benefits",
+			name: "Преимущества",
+			title: "Преимущества",
 			subtitle: "Benefits or removal of negatives?",
 			md: C2_RU
 		},
 		{
-			name: "Ownership",
-			title: "Ownership",
+			name: "Собственность",
+			title: "Собственность",
 			subtitle: "You must own your problems.",
 			md: C3_RU
 		},
 		{
-			name: "Desire",
-			title: "Desire",
+			name: "Стремление",
+			title: "Стремление",
 			subtitle: "The thing which achieves dreams.",
 			md: C4_RU
 		},
 		{
-			name: "Nature",
-			title: "Human Nature",
+			name: "Природа",
+			title: "Природа",
 			subtitle: "Our inherent way of functioning.",
 			md: C5_RU
 		},
 		{
-			name: "Neurology",
-			title: "Neurology",
+			name: "Нейрология",
+			title: "Нейрология",
 			subtitle: "How the chemicals in our brains work.",
 			md: C6_RU
 		},
 		{
-			name: "Brainwashing",
-			title: "Brainwashing",
+			name: "Промывание мозгов",
+			title: "Промывание мозгов",
 			subtitle: "Going over the untruths.",
 			md: C7_RU
 		},
 		{
-			name: "Neuroplasticity",
-			title: "Neuroplasticity",
+			name: "Нейропластичность",
+			title: "Нейропластичность",
 			subtitle: "Processes and reactions.",
 			md: C8_RU
 		},
 		{
-			name: "Transmutation",
-			title: "Transmutation",
+			name: "Трансмутация",
+			title: "Трансмутация",
 			subtitle: "Going over important topics.",
 			md: C9_RU
 		},
 		{
-			name: "Moving On",
-			title: "Moving On",
+			name: "Продолжение Жизни",
+			title: "Продолжение Жизни",
 			subtitle: "You have to put yourself first.",
-			md: C10_EN
+			md: C10_RU
 		},
 		{
-			name: "Freedom",
-			title: "Freedom",
+			name: "Свобода",
+			title: "Свобода",
 			subtitle: "Forever onwards.",
-			md: C11_EN
+			md: C11_RU
 		},
 	];
 
