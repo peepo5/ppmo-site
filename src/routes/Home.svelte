@@ -4,10 +4,10 @@
 	<img src="images/ppmo_circle_web.png" class="circle-light-up" title="{ti["pmo-name-info"][lshort]}" height=200px alt="logo banner">
 	<h1 class="light-up-underline" title="{ti["pmo-name-info"][lshort]}">ppmo</h1>
 	<p style="margin-top: 3px;">{ti["description-p1"][lshort]}<br> {ti["description-p2"][lshort]}</p>
-	{#each ["us", "fr"] as lang}
+	{#each ["us", "fr", "ru"] as lang}
 	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" title="{ti["lang-disclaim"][lshort]}">
 	{/each}<br>
-	<p><b>Now in French!</b></p>
+	<p><b>Now in Russian! Offline translations soon.</b></p>
 	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
 	<a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> | 
 	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a>
