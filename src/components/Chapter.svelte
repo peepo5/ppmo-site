@@ -194,7 +194,7 @@
 			ls_id = date;
 		}
 
-	mixpanel.init('a7532ed6827d50d6d62d6eb298ccc9c5', {debug: true, ignore_dnt: true});
+	mixpanel.init('c5cad05270531f641b33c1e4809d7485', {debug: true, ignore_dnt: true});
     mixpanel.identify(ls_id);
     mixpanel.track(`Chapter ${chapter}`);
     mixpanel.track(`Language ${language_info.title_name}`);
