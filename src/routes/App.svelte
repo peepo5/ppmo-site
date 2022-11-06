@@ -32,6 +32,7 @@
 	import C10_FR from "../markdown/french/10. Aller De L'Avant.md";
 	import C11_FR from "../markdown/french/11. Liberté.md";
 
+	// Chapters (Russian)
 	import C0_RU from "../markdown/russian/0. Префикс.md";
 	import C1_RU from "../markdown/russian/1. Вступление.md";
 	import C2_RU from "../markdown/russian/2. Преимущества.md";
@@ -242,67 +243,67 @@
 		{
 			name: "Вступление",
 			title: "Вступление",
-			subtitle: "Welcome to the book.",
+			subtitle: "Добро пожаловать в книгу.",
 			md: C1_RU
 		},
 		{
 			name: "Преимущества",
 			title: "Преимущества",
-			subtitle: "Benefits or removal of negatives?",
+			subtitle: "Преимущество или избавление от минусов?",
 			md: C2_RU
 		},
 		{
 			name: "Собственность",
 			title: "Собственность",
-			subtitle: "You must own your problems.",
+			subtitle: "Вы должны нести ответственность за свои проблемы.",
 			md: C3_RU
 		},
 		{
 			name: "Стремление",
 			title: "Стремление",
-			subtitle: "The thing which achieves dreams.",
+			subtitle: "Вещь которая достигает свою мечту.",
 			md: C4_RU
 		},
 		{
 			name: "Природа",
 			title: "Природа",
-			subtitle: "Our inherent way of functioning.",
+			subtitle: "Наш естественный способ функционирования.",
 			md: C5_RU
 		},
 		{
 			name: "Нейрология",
 			title: "Нейрология",
-			subtitle: "How the chemicals in our brains work.",
+			subtitle: "Как химия работает в нашей голове.",
 			md: C6_RU
 		},
 		{
 			name: "Промывание мозгов",
 			title: "Промывание мозгов",
-			subtitle: "Going over the untruths.",
+			subtitle: "Проходим через неправды.",
 			md: C7_RU
 		},
 		{
 			name: "Нейропластичность",
 			title: "Нейропластичность",
-			subtitle: "Processes and reactions.",
+			subtitle: "Процессы и реакции.",
 			md: C8_RU
 		},
 		{
 			name: "Трансмутация",
 			title: "Трансмутация",
-			subtitle: "Going over important topics.",
+			subtitle: "Обсуждаем важные темы.",
 			md: C9_RU
 		},
 		{
 			name: "Продолжение Жизни",
 			title: "Продолжение Жизни",
-			subtitle: "You have to put yourself first.",
+			subtitle: "Поставьте себя на первое место.",
 			md: C10_RU
 		},
 		{
 			name: "Свобода",
 			title: "Свобода",
-			subtitle: "Forever onwards.",
+			subtitle: "Далее и навсегда.",
 			md: C11_RU
 		},
 	];
