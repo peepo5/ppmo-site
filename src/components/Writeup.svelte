@@ -12,6 +12,11 @@
     mixpanel.track(`Writeup: ${title}`);
 </script>
 
+<head>
+    <meta property="og:title" content="ppmo - {title} Writeup" />
+	<meta property="og:description" content="{subtitle}" />
+</head>
+
 <main>
     {#if image != ""}
         <img src="../images/{image}" style="max-width: 400px;" alt="banner">
