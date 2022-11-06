@@ -1,3 +1,7 @@
+<head>
+    <meta property="og:title" content="ppmo - Full Book" />
+	<meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
+</head>
 <script>
     import Typewriter from "svelte-typewriter";
     import Markdown from "./Markdown.svelte";

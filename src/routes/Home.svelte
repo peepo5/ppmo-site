@@ -1,3 +1,8 @@
+<head>
+	<meta property="og:title" content="ppmo - Full Book" />
+	<meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
+</head>
+
 <main>
 	<title>Purge PMO</title>
 	
