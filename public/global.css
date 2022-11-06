@@ -15,6 +15,7 @@
 	--main-font: open-sans;
 	--para-size: 17px;
 	--markdown-alignment: left;
+	--a-color: aqua;
 }
 
 .light-theme {
@@ -28,6 +29,7 @@
 	--invert-full: 0%;
 	--invert-half: 25%;
 	--invert-half-hover: 0%;
+	--a-color: blue;
 }
 
 .light-grid-theme {
@@ -45,6 +47,7 @@
 	--invert-half: 25%;
 	--invert-half-hover: 0%;
 	--background-image: url("./images/background-grid.png");
+	--a-color: blue;
 }
 
 .warm-dark-theme {
@@ -172,7 +175,7 @@ h2 {
 }
 
 a {
-	color: aqua;
+	color: var(--a-color);
 	text-decoration: none;
 }
 

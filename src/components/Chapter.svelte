@@ -1,7 +1,3 @@
-<head>
-    <meta property="og:title" content="ppmo - Full Book" />
-	<meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
-</head>
 <script>
     import Typewriter from "svelte-typewriter";
     import Markdown from "./Markdown.svelte";
@@ -212,6 +208,8 @@
 <main>
     <header>
         <title>{ti["chapter"][lshort]} {chapter} - {title} (ppmo)</title>
+        <meta property="og:title" content="ppmo - Full Book" />
+	    <meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
     </header>
 
     {#if !mobile_menu_open}

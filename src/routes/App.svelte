@@ -49,6 +49,8 @@
 
 	// Writeups (English)
 	import EgoDeath_EN from "../writeups/Ego Death.md";
+	import Stress_EN from "../writeups/Stress.md";
+	import Perfectionism_EN from "../writeups/Perfectionism.md";
 
 	// If this changes, book progress is removed
 	const major_vers = "3.0-main";
@@ -663,11 +665,25 @@
 	let writeups = [
 		{
 			title: "EGO DEATH",
-			subtitle: "The great deconstruction",
+			subtitle: "The Great Deconstruction",
 			image: "ego_death.png",
 			md: EgoDeath_EN,
 			notitles: true
-		}
+		},
+		{
+			title: "PERFECTIONISM",
+			subtitle: "There is no 10",
+			image: "perfectionism.png",
+			md: Perfectionism_EN,
+			notitles: true
+		},
+		{
+			title: "STRESS",
+			subtitle: "The Physical Principal",
+			image: "stress.png",
+			md: Stress_EN,
+			notitles: true
+		},
 	]
 	
 	function make_noice_link(title) {
@@ -711,6 +727,17 @@
 			/>
 		</Route>
 	{/each}
+
+	<Route path="writeups">
+		<title>Writeups</title>
+		<h1>Writeups</h1>
+		<p>Addressing the world.</p>
+		<ul>
+		{#each writeups as writeup}
+			<li style="margin-bottom: 10px;"><a href="writeup/{make_noice_link(writeup.title)}" title={writeup.subtitle}>{writeup.title}</a></li>
+		{/each}
+		</ul>
+	</Route>
 
 	<Route path="/">
 		<Home 
