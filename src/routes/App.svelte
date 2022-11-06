@@ -3,6 +3,7 @@
 	import Home from "./Home.svelte";
 	import x from  "../components/trash/x.svelte";
 	import Chapter from "../components/Chapter.svelte";
+	import Writeup from "../components/Writeup.svelte";
 
 	// Chapters (English)
 	import C0_EN from "../markdown/english/0. Prefix.md";
@@ -45,6 +46,9 @@
 	import C9_RU from "../markdown/russian/9. Трансмутация.md";
 	import C10_RU from "../markdown/russian/10. Продолжение Жизни.md";
 	import C11_RU from "../markdown/russian/11. Свобода.md";
+
+	// Writeups (English)
+	import EgoDeath_EN from "../writeups/Ego Death.md";
 
 	// If this changes, book progress is removed
 	const major_vers = "3.0-main";
@@ -656,6 +660,23 @@
 
 	*/
 
+	let writeups = [
+		{
+			title: "EGO DEATH",
+			subtitle: "The great deconstruction",
+			image: "ego_death.png",
+			md: EgoDeath_EN,
+			notitles: true
+		}
+	]
+	
+	function make_noice_link(title) {
+		title = title.replace(/ /g,"_");
+		title = title.toLowerCase();
+		console.log(title);
+		return title;
+	}
+
 </script>
 
 <Router primary={false}>
@@ -679,12 +700,27 @@
 		</Route>
 	{/each}
 
+	{#each writeups as writeup, i}
+		<Route path="writeup/{make_noice_link(writeup.title)}">
+			<Writeup
+				title={writeup.title}
+				subtitle={writeup.subtitle}
+				image={writeup.image}
+				md={writeup.md}
+				notitles={writeup.notitles}
+			/>
+		</Route>
+	{/each}
+
 	<Route path="/">
 		<Home 
 			translation_index={translation_index}
 			language_info={languages[active_language]}
 		/>
 	</Route>
+
+	
+
 
 	<Route path="hs_6d61796265003733203639203664203666">
 		<title>404</title>

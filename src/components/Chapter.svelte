@@ -274,11 +274,11 @@
                 {:else}
                 <h1>{ti["downloads"][lshort]}</h1>
                 <span>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/{lshort}-3.0-main.md.pdf" target="_blank" title="{ti["pdf-info"][lshort]}"><button class="button">PDF</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md.epub" target="_blank" title="{ti["epub-info"][lshort]}"><button class="button">EPUB</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md-dark.epub" target="_blank" title="{ti["epub-dark-info"][lshort]}"><button class="button">EPUB (Dark)</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/{lshort}-3.0-main.md" download target="_blank" title="{ti["md-info"][lshort]}"><button class="button">MD</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/{lshort}-3.0-main-markdown.zip" download target="_blank" title="{ti["zip-info"][lshort]}"><button class="button">ZIP</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/{lshort}-3.0-main.md.pdf" target="_blank" rel="noreferrer" title="{ti["pdf-info"][lshort]}"><button class="button">PDF</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md.epub" target="_blank" rel="noreferrer" title="{ti["epub-info"][lshort]}"><button class="button">EPUB</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md-dark.epub" target="_blank" rel="noreferrer" title="{ti["epub-dark-info"][lshort]}"><button class="button">EPUB (Dark)</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/{lshort}-3.0-main.md" download target="_blank" rel="noreferrer" title="{ti["md-info"][lshort]}"><button class="button">MD</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/{lshort}-3.0-main-markdown.zip" download target="_blank" rel="noreferrer" title="{ti["zip-info"][lshort]}"><button class="button">ZIP</button></a>
                     <br>
                     <p>
                         {ti["doc-info"][lshort]}

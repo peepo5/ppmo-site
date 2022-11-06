@@ -118,7 +118,7 @@
 
 .monnaco-font {
 	--main-font: monnaco;
-	--para-size: 18px;
+	--para-size: 19px;
 }
 
 .open-dyslexic-font {
@@ -440,6 +440,11 @@ li {
 	animation-iteration-count: infinite;
 	margin-left: 4px;
 	margin-right: 4px;
+}
+
+.writeup {
+	max-width: 850px;
+	text-align: var(--markdown-alignment);
 }
 
 @keyframes rainbow{

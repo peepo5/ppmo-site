@@ -8,9 +8,9 @@
 	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" title="{ti["lang-disclaim"][lshort]}">
 	{/each}<br>
 	<p><b>Now in Russian! Offline translations soon.</b></p>
-	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
-	<a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> | 
-	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a>
+	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
+	<a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> | 
+	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a>
 	<br><br>
 	<a href="/chapter/0"><button class="button">{ti["read-the-book"][lshort]}</button></a><br><br>
 	
