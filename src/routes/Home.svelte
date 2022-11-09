@@ -1,8 +1,3 @@
-<head>
-	<meta property="og:title" content="ppmo - Full Book" />
-	<meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
-</head>
-
 <main>
 	<title>Purge PMO</title>
 	
@@ -12,7 +7,7 @@
 	{#each ["us", "fr", "ru"] as lang}
 	<img class="mini-flag" src="images/flags/{lang}.svg" alt="{lang}" title="{ti["lang-disclaim"][lshort]}">
 	{/each}<br>
-	<p><b>Now in Russian! Offline translations soon.</b></p>
+	<p><b>New <u><a href="/writeups">Writeups</a></u> section!</b></p>
 	<a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a> |
 	<a on:click={() => send_to_mix("Audiobook")} href="https://odysee.com/ppmo_audiobook_v3:e" rel="noreferrer" title="{ti["audiobook-info"][lshort]}">{ti["audiobook"][lshort]}</a> | 
 	<a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer" title="{ti["donate-info"][lshort]}">{ti["donate"][lshort]}</a> | 

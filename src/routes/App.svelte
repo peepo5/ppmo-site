@@ -51,6 +51,9 @@
 	import EgoDeath_EN from "../writeups/Ego Death.md";
 	import Stress_EN from "../writeups/Stress.md";
 	import Perfectionism_EN from "../writeups/Perfectionism.md";
+	import Sleep_EN from "../writeups/Sleep.md";
+
+    import Markdown from "../components/Markdown.svelte";
 
 	// If this changes, book progress is removed
 	const major_vers = "3.0-main";
@@ -72,7 +75,8 @@
 			native_name: "english",
 			native_title_name: "English",
 			short_name: "en",
-			tsn: "EN"
+			tsn: "EN",
+			version: "3.0"
 		},
 		french: {
 			name: "french",
@@ -80,7 +84,8 @@
 			native_name: "français",
 			native_title_name: "Français",
 			short_name: "fr",
-			tsn: "FR"
+			tsn: "FR",
+			version: "3.0"
 		},
 		russian: {
 			name: "russian",
@@ -88,7 +93,8 @@
 			native_name: "русский",
 			native_title_name: "Русский",
 			short_name: "ru",
-			tsn: "RU"
+			tsn: "RU",
+			version: "3.0"
 		}
 	}
 
@@ -507,7 +513,7 @@
 			ru: "Свобода приходит из понимания."
 		},
 		"description-p2": {
-			en: "A book to become free from the porn and masturbation trap.",
+			en: "A book to become free from the p*rn and masturbation trap.",
 			fr: "Un Livre pour se libérer du piège du porno et de la masturbation.",
 			ru: "Книга которая поможет вам стать свободными от ловушки порно и мастурбации."
 		},
@@ -546,6 +552,11 @@
 			fr: "Un son adapté. De Lil Darkie - Dreaming.",
 			ru: "Подходящая музыка. От Lil Darkie - Dreaming."
 		},
+		"audio2-info": {
+			en: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke.",
+			fr: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke.",
+			ru: "What I thought would be a nice outro. Song is by Quadeca - Tell Me A Joke."
+		},
 		"mark-done": {
 			en: "Mark Done",
 			fr: "Marquer comme lu",
@@ -567,7 +578,7 @@
 			ru: "Сбросить все пройденные главы"
 		},
 		"donate-opn": {
-			en: "Donate via opencollective",
+			en: "Donate Via Opencollective",
 			fr: "Faire un don via opencollective",
 			ru: "Пожертвование через opencollective"
 		},
@@ -650,6 +661,31 @@
 			en: "Listen to the full audiobook.",
 			fr: "Écouter le livre audio complet.",
 			ru: "Слушайте полную аудиокнигу."
+		},
+		"stats": {
+			en: "Stats",
+			fr: "Stats",
+			ru: "Stats"
+		},
+		"current-b-version": {
+			en: "Current Book Version",
+			fr: "Current Book Version",
+			ru: "Current Book Version"
+		},
+		"translations-warning": {
+			en: "Translations are the best attempt at translating info, however some specific meaning may be lost in translation. For the best reading experience, use the English version",
+			fr: "Translations are the best attempt at translating info, however some specific meaning may be lost in translation. For the best reading experience, use the English version",
+			ru: "Translations are the best attempt at translating info, however some specific meaning may be lost in translation. For the best reading experience, use the English version",
+		},
+		"checkout-writeups": {
+			en: "Check Out My Writeups!",
+			fr: "Check Out My Writeups!",
+			ru: "Check Out My Writeups!"
+		},
+		"writeups-info": {
+			en: "My dives into different topics on personal growth.",
+			fr: "My dives into different topics on personal growth.",
+			ru: "My dives into different topics on personal growth.",
 		}
 	};
 
@@ -672,9 +708,16 @@
 		},
 		{
 			title: "PERFECTIONISM",
-			subtitle: "There is no 10",
+			subtitle: "There Is No 10",
 			image: "perfectionism.png",
 			md: Perfectionism_EN,
+			notitles: true
+		},
+		{
+			title: "SLEEP",
+			subtitle: "The Birds Settle",
+			image: "sleep.png",
+			md: Sleep_EN,
 			notitles: true
 		},
 		{
@@ -691,6 +734,10 @@
 		title = title.toLowerCase();
 		console.log(title);
 		return title;
+	}
+
+	function no_cuss() {
+		console.log("lol")
 	}
 
 </script>
@@ -730,8 +777,12 @@
 
 	<Route path="writeups">
 		<title>Writeups</title>
-		<h1>Writeups</h1>
-		<p>Addressing the world.</p>
+		<h1 class="light-up-underline">Writeups</h1>
+		<img src="../images/branches.gif" class="img-light-up" style="max-width:280px;" alt="nice looking gif">
+		<p>Addressing the world-<br>
+		These are just my thoughts-<br>
+		Digest them by yourself.
+		</p>
 		<ul>
 		{#each writeups as writeup}
 			<li style="margin-bottom: 10px;"><a href="writeup/{make_noice_link(writeup.title)}" title={writeup.subtitle}>{writeup.title}</a></li>
@@ -751,7 +802,7 @@
 
 	<Route path="hs_6d61796265003733203639203664203666">
 		<title>404</title>
-		<h3><span on:click={() => window.location.href = "hs_6d617962650003733203639203664203666"}>404</span></h3>
+		<h3><a href="hs_6d617962650003733203639203664203666">404</a></h3>
 		<p>No Route could be matched. <a href="/">Home</a></p>
 	</Route>
 	<Route path="hs_6d617962650003733203639203664203666" component={x}/>

@@ -42,6 +42,8 @@ When you stop believing you need to be a professional to start everything, but i
 
 You evolve as a being through daily positive growth, not becoming "perfect". Is there any benefit to feeling glum knowing you are not perfect, compared to feeling joyful about growing in every moment to be better? You can decide that.
 
+Perfectionism also poisons "self-improvement". If you are trying to improve towards a moving goalpost, and you frame it in a perfectionist view (like "I am not good enough right now") then you will not be appreciating towards your actual progress, and you will never be good enough.
+
 In the end, perfectionism is something to be aware of. It is the ultimate cause of procrastination. But it is also not bad - just not productive.
 
 Myself, I am not perfect either.

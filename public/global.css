@@ -265,6 +265,14 @@ strong {
 	border: 1px solid var(--red-color);
 }
 
+.img-light-up {
+	border: 1px solid var(--main-background);
+}
+
+.img-light-up:hover {
+	border: 1px solid var(--red-color);
+}
+
 .light-up-underline:hover {
 	text-decoration: underline;
 	text-decoration-color: var(--red-color)
@@ -443,6 +451,10 @@ li {
 	animation-iteration-count: infinite;
 	margin-left: 4px;
 	margin-right: 4px;
+}
+
+.mini-flag:hover {
+	filter: opacity(60%);
 }
 
 .writeup {

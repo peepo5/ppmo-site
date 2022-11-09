@@ -34,6 +34,7 @@
     let selected_theme;
     let selected_font;
     let selected_align;
+    let selected_nocuss;
     let selected_language = language_info.name;
 
     let next_chapter = {};
@@ -208,8 +209,6 @@
 <main>
     <header>
         <title>{ti["chapter"][lshort]} {chapter} - {title} (ppmo)</title>
-        <meta property="og:title" content="ppmo - Full Book" />
-	    <meta property="og:description" content="The comprehensive book to leave PMO forever - gain freedom from understanding." />
     </header>
 
     {#if !mobile_menu_open}
@@ -220,11 +219,11 @@
 
 
     <div class="middlefy">
-        <div class="overlay" on:click={() => toggle_popup()}></div>
+        <div class="overlay" on:click={() => toggle_popup()} on:keypress={() => toggle_popup()}></div>
 
         <div class="settings-container">
             <div class="settings">
-                <div on:click={() => toggle_popup()}>
+                <div on:click={() => toggle_popup()} on:keypress={() => toggle_popup()}>
                     <img src="../images/close-outline.svg" class="close-settings linkify invert-color" alt="{ti["trol"][lshort]}" title="{ti["trol"][lshort]}">
                 </div>
                 {#if popup_type == "settings"}
@@ -256,9 +255,24 @@
                     </option>
                     {/each}
                 </select>
+                <!--
+                <br><br>
+                <label for="select">CussTest</label>
+                <select class="select" bind:value={selected_nocuss} on:change={() => {}}>
+                    <option value={false}>
+                        NoTest
+                    </option>
+                    <option value={true}>
+                        YesTest
+                    </option>
+                </select> 
+                -->
 
                 <br><br>
-                <a href="https://github.com/free-synd/ppmo-site" target="_blank">
+                <a href="https://eu.mixpanel.com/p/KYZL3Q3ABCd3yuKLTnbcTX" target="_blank" rel="noreferrer">{ti["stats"][lshort]}</a> | {ti["current-b-version"][lshort]}: {language_info["tsn"]}-{language_info["version"]}
+                
+                <br><br>
+                <a href="https://github.com/free-synd/ppmo-site" target="_blank" rel="noreferrer">
                     <img src="../images/github-logo.svg" alt="github" class="invert-color" title="{ti["gh"][lshort]}" height=30px>
                 </a>
 
@@ -273,18 +287,20 @@
                     {/each}
                 </select>
                 <p>{ti["choose-your-language"][lshort]}</p>
+                <p>! {ti["translations-warning"][lshort]} !</p>
                 {:else}
                 <h1>{ti["downloads"][lshort]}</h1>
                 <span>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/{lshort}-3.0-main.md.pdf" target="_blank" rel="noreferrer" title="{ti["pdf-info"][lshort]}"><button class="button">PDF</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md.epub" target="_blank" rel="noreferrer" title="{ti["epub-info"][lshort]}"><button class="button">EPUB</button></a>
-                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/{lshort}-3.0-main.md-dark.epub" target="_blank" rel="noreferrer" title="{ti["epub-dark-info"][lshort]}"><button class="button">EPUB (Dark)</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/{lshort}-3.0-main.md" download target="_blank" rel="noreferrer" title="{ti["md-info"][lshort]}"><button class="button">MD</button></a>
-                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/{lshort}-3.0-main-markdown.zip" download target="_blank" rel="noreferrer" title="{ti["zip-info"][lshort]}"><button class="button">ZIP</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/pdf/en-3.0-main.md.pdf" target="_blank" rel="noreferrer" title="{ti["pdf-info"][lshort]}"><button class="button">PDF</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md.epub" target="_blank" rel="noreferrer" title="{ti["epub-info"][lshort]}"><button class="button">EPUB</button></a>
+                    <a href="https://github.com/free-synd/ppmo-site/raw/master/public/offline/_COMPLETE/epub/en-3.0-main.md-dark.epub" target="_blank" rel="noreferrer" title="{ti["epub-dark-info"][lshort]}"><button class="button">EPUB (Dark)</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/md/en-3.0-main.md" download target="_blank" rel="noreferrer" title="{ti["md-info"][lshort]}"><button class="button">MD</button></a>
+                    <a href="https://raw.githubusercontent.com/free-synd/ppmo-site/master/public/offline/_COMPLETE/zip/en-3.0-main-markdown.zip" download target="_blank" rel="noreferrer" title="{ti["zip-info"][lshort]}"><button class="button">ZIP</button></a>
                     <br>
                     <p>
                         {ti["doc-info"][lshort]}
                     </p>
+                    <a on:click={() => send_to_mix("Physical Book")} href="https://www.lulu.com/shop/cat-guy/ppmo-paperback/paperback/product-gmz9p6.html" target="_blank" rel="noreferrer" title="{ti["physical-info"][lshort]}">{ti["physical-copy"][lshort]}</a>
                 </span>
                 {/if}
             </div>
@@ -331,9 +347,15 @@
             </div>
         </div>
         {#if chapter == chapters.length-1}
-        <br>
-        <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank">
+        <audio controls style="margin-top:12px" title="{ti["audio2-info"][lshort]}">
+            <source src="../outro.mp3" type="audio/mpeg">
+        </audio>
+        <br><br>
+        <!-- <a on:click={() => send_to_mix("Donate")} href="https://opencollective.com/ppmo-collective-fund" target="_blank" rel="noreferrer">
             <button class="button" title="{ti["donate-info"][lshort]}" style="background-color:#314879">{ti["donate-opn"][lshort]}</button>
+        </a> -->
+        <a on:click={() => send_to_mix("Writeups")} href="/writeups" target="_blank" rel="noreferrer">
+            <button class="button" title="{ti["writeups-info"][lshort]}" style="background-color:#314879">{ti["checkout-writeups"][lshort]}</button>
         </a>
         <br><br>
 
@@ -351,7 +373,7 @@
             {ti["reset-all"][lshort]}
         </button>
         {#if chapter == chapters.length-1}
-        <a href="/hs_6d61796265003733203639203664203666">
+        <a href="/hs_6d61796265003733203639203664203666" target="_blank" rel="noreferrer">
             <button class="button" title="...">{ti["hidden-section"][lshort]}</button>
         </a>
         {/if}

@@ -9,13 +9,12 @@
 
     mixpanel.init('c5cad05270531f641b33c1e4809d7485', {debug: true, ignore_dnt: true});
     mixpanel.identify(ls_id);
+    mixpanel.track(`Writeup`);
     mixpanel.track(`Writeup: ${title}`);
 </script>
 
 <main>
-    <title>Writeups</title>
-    <meta property="og:title" content="ppmo - {title} Writeup" />
-	<meta property="og:description" content="{subtitle}" />
+    <title>Writeup - {title}</title>
     {#if image != ""}
         <img src="../images/{image}" style="max-width: 400px;" alt="banner">
     {/if}
