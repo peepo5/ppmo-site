@@ -10,3 +10,5 @@
 public/*.mp3
 
 public/*.flp
+
+.archive/
