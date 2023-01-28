@@ -52,6 +52,7 @@
 	import Stress_EN from "../writeups/Stress.md";
 	import Perfectionism_EN from "../writeups/Perfectionism.md";
 	import Sleep_EN from "../writeups/Sleep.md";
+	import Mentors_EN from "../writeups/Mentors.md";
 
     import Markdown from "../components/Markdown.svelte";
 
@@ -523,7 +524,7 @@
 			ru: "Читать книгу"
 		},
 		"physical-copy": {
-			en: "Physical Copy",
+			en: "Paperback",
 			fr: "Copie physique",
 			ru: "Физическая копия"
 		},
@@ -727,6 +728,13 @@
 			md: Stress_EN,
 			notitles: true
 		},
+		{
+			title: "MENTORS [NEW]",
+			subtitle: "Am I your mentor?",
+			image: "stress.png",
+			md: Mentors_EN,
+			notitles: true
+		},
 	]
 	
 	function make_noice_link(title) {
@@ -745,6 +753,7 @@
 <Router primary={false}>
 	<main>
 
+<!--
 	{#each chapter_langs[active_language].chaps as chapter, i}
 		<Route path="chapter/{i.toString()}">
 			<Chapter
@@ -774,7 +783,9 @@
 			/>
 		</Route>
 	{/each}
+	-->
 
+<!--
 	<Route path="writeups">
 		<title>Writeups</title>
 		<h1 class="light-up-underline">Writeups</h1>
@@ -789,6 +800,7 @@
 		{/each}
 		</ul>
 	</Route>
+-->
 
 	<Route path="/">
 		<Home 
@@ -810,7 +822,7 @@
 	<Route path="*">
 		<title>404</title>
 		<h3>404</h3>
-		<p>No Route could be matched. <a href="/">Home</a></p>
+		<p>That no longer exists. <a href="/">Home</a></p>
 	</Route>
 
 	</main>

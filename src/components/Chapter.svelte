@@ -271,10 +271,6 @@
                 <br><br>
                 <a href="https://eu.mixpanel.com/p/KYZL3Q3ABCd3yuKLTnbcTX" target="_blank" rel="noreferrer">{ti["stats"][lshort]}</a> | {ti["current-b-version"][lshort]}: {language_info["tsn"]}-{language_info["version"]}
                 
-                <br><br>
-                <a href="https://github.com/free-synd/ppmo-site" target="_blank" rel="noreferrer">
-                    <img src="../images/github-logo.svg" alt="github" class="invert-color" title="{ti["gh"][lshort]}" height=30px>
-                </a>
 
                 {:else if popup_type == "languages"}
                 <h1>{ti["languages"][lshort]}</h1>
