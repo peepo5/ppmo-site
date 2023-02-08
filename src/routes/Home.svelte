@@ -11,6 +11,11 @@
 		-->
 		ppmo no longer exists.
 		<br><br>
+		After much revision, I took steps back to create something entirely new.
+		<br><br>
+		This project lies under the name: Burgeon.
+		<br><br>
+		<a href="https://burgeonbook.org"><button class="button">Visit The Book</button></a>
 	</p>
 	<!--
 	{#each ["us", "fr", "ru"] as lang}
